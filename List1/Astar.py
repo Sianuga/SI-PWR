@@ -22,8 +22,7 @@ def h_geographic_manhattan(graph, node1, node2):
 normalizer = 100
 
 def haversine(lat1, lon1, lat2, lon2):
-    """Calculate the great circle distance in kilometers between two points 
-    on the earth (specified in decimal degrees)"""
+
     # convert decimal degrees to radians 
     lat1, lon1, lat2, lon2 = map(radians, [lat1, lon1, lat2, lon2])
     # haversine formula 
@@ -52,9 +51,6 @@ def a_star_time(graph, start_stop, end_stop, departure_time_str):
 
     visited = set()
     while queue:
-        # Progress indicator
-        # stopsCount = len(visited)/len(graph.nodes)
-        # print(f"Progress: {stopsCount:.2f}")
 
         current_time, current_stop, current_datetime, path = heapq.heappop(queue)
 
@@ -96,9 +92,6 @@ def a_star_path(graph, start_stop, end_stop, departure_time_str):
 
     visited = set()
     while queue:
-        # Progress indicator
-        # stopsCount = len(visited)/len(graph.nodes)
-        # print(f"Progress: {stopsCount:.2f}")
 
         current_stops, current_stop, current_datetime, path = heapq.heappop(queue)
 
@@ -140,9 +133,6 @@ def a_star_min_modified(graph, start_stop, end_stop, departure_time_str):
 
     visited = set()
     while queue:
-        # Progress indicator
-        # stopsCount = len(visited)/len(graph.nodes)
-        # print(f"Progress: {stopsCount:.2f}")
 
         current_value, current_stop, current_datetime, path = heapq.heappop(queue)
 

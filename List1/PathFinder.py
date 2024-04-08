@@ -59,17 +59,17 @@ class PathFinder:
             print(" Czas wykonanie: ", end - start)
             return result
         elif criteria == "t":
-            result = Tabu.tabu_tab_length(self.graph, startStop, stopLists, departureTime, tabuListSize, maxIterations)
+            result = Tabu.tabu_no_limit(stopLists, maxIterations, tabuListSize, departureTime, self.graph)
             end = timer()
             print(" Czas wykonanie: ", end - start)
             return result
         elif criteria == "m":
-            result = Tabu.tabu_cost_min(self.graph, startStop, stopLists, departureTime, tabuListSize, maxIterations)
+            result = Tabu.tabu_aspiration(stopLists, maxIterations, tabuListSize, departureTime, self.graph)
             end = timer()
             print(" Czas wykonanie: ", end - start)
             return result
         elif criteria == "s":
-            result = Tabu.tabu_sampling(self.graph, startStop, stopLists, departureTime, tabuListSize, maxIterations)
+            result = Tabu.tabu_neigboursStrat(stopLists, maxIterations, tabuListSize, departureTime, self.graph)
             end = timer()
             print(" Czas wykonanie: ", end - start)
             return result
