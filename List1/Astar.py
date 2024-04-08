@@ -110,7 +110,7 @@ def a_star_path(graph, start_stop, end_stop, departure_time_str):
                     print(f"Linia {line}, z {segment[4]} (odj. {dep.strftime('%H:%M:%S')}) do {segment[0]} (przyj. {arr.strftime('%H:%M:%S')})")
             total_travel_time = (current_datetime - departure_datetime).total_seconds() / 60  
             print(f"\nCałkowity czas podróży: {total_travel_time:.0f} minut")
-            print(f"Całkowita liczba przesiadek: {current_stops}")
+            print(f"Całkowita liczba przesiadek: {len(path)}")
             return path
         current_node = [node_id for node_id in graph.nodes if graph.nodes[node_id]['name'] == current_stop][0]
         current_line = path[-1][1]

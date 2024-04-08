@@ -1,0 +1,1179 @@
+//// Djikstra
+
+Testcase: Babimojska -> Biegasa
+Optimization: t
+Start Time: 16:58:00
+Harmonogram przejazdu:
+Linia 149, z Babimojska (odj. 16:59:00) do Park Biznesu (przyj. 17:00:00)
+Linia 149, z Park Biznesu (odj. 17:00:00) do Wrocławski Park Przemysłowy (przyj. 17:02:00)
+Linia 149, z Wrocławski Park Przemysłowy (odj. 17:02:00) do Śrubowa (przyj. 17:04:00)
+Linia 149, z Śrubowa (odj. 17:04:00) do Smolecka (przyj. 17:05:00)
+Linia 149, z Smolecka (odj. 17:05:00) do Dworzec Świebodzki (przyj. 17:07:00)
+Linia 149, z Dworzec Świebodzki (odj. 17:07:00) do pl. Orląt Lwowskich (przyj. 17:09:00)
+Linia 149, z pl. Orląt Lwowskich (odj. 17:09:00) do Renoma (przyj. 17:11:00)
+Linia 149, z Renoma (odj. 17:11:00) do Dworzec Główny (Dworcowa) (przyj. 17:15:00)
+Linia 149, z Dworzec Główny (Dworcowa) (odj. 17:15:00) do skwer Krasińskiego (przyj. 17:17:00)
+Linia 149, z skwer Krasińskiego (odj. 17:17:00) do Krasińskiego (przyj. 17:18:00)
+Linia 149, z Krasińskiego (odj. 17:18:00) do Urząd Wojewódzki (Impart) (przyj. 17:21:00)
+Linia 149, z Urząd Wojewódzki (Impart) (odj. 17:21:00) do most Grunwaldzki (przyj. 17:22:00)
+Linia 149, z most Grunwaldzki (odj. 17:22:00) do PL. GRUNWALDZKI (przyj. 17:25:00)
+Linia 19, z PL. GRUNWALDZKI (odj. 17:25:00) do Kliniki - Politechnika Wrocławska (przyj. 17:27:00)
+Linia 19, z Kliniki - Politechnika Wrocławska (odj. 17:27:00) do Hala Stulecia (przyj. 17:29:00)
+Linia 19, z Hala Stulecia (odj. 17:29:00) do ZOO (przyj. 17:30:00)
+Linia 2, z ZOO (odj. 17:31:00) do Tramwajowa (przyj. 17:33:00)
+Linia 4, z Tramwajowa (odj. 17:33:00) do Chełmońskiego (przyj. 17:34:00)
+Linia 143, z Chełmońskiego (odj. 17:37:00) do Biegasa (przyj. 17:38:00)
+
+Całkowity czas podróży: 40 minut
+ Czas wykonanie:  31.392300500010606
+Testcase: Kadłub NŻ -> Rogowska (P+R)
+Optimization: t
+Start Time: 00:44:00
+Harmonogram przejazdu:
+Linia 948, z Kadłub NŻ (odj. 04:59:00) do Kadłub wieś (przyj. 05:00:00)
+Linia 948, z Kadłub wieś (odj. 05:00:00) do Źródła (przyj. 05:04:00)
+Linia 948, z Źródła (odj. 05:04:00) do Błonie (przyj. 05:06:00)
+Linia 948, z Błonie (odj. 05:06:00) do Wróblowice (przyj. 05:10:00)
+Linia 948, z Wróblowice (odj. 05:10:00) do Krępice (przyj. 05:12:00)
+Linia 948, z Krępice (odj. 05:12:00) do ŻAR (przyj. 05:15:00)
+Linia 948, z ŻAR (odj. 05:15:00) do Mokrzańska (przyj. 05:18:00)
+Linia 948, z Mokrzańska (odj. 05:18:00) do Leśnica - Hermes (przyj. 05:19:00)
+Linia 948, z Leśnica - Hermes (odj. 05:19:00) do Średzka (przyj. 05:19:00)
+Linia 148, z Średzka (odj. 05:20:00) do LEŚNICA (przyj. 05:22:00)
+Linia 148, z LEŚNICA (odj. 05:22:00) do Wschowska (przyj. 05:23:00)
+Linia 148, z Wschowska (odj. 05:23:00) do Złotnicka (przyj. 05:24:00)
+Linia 148, z Złotnicka (odj. 05:24:00) do Wielkopolska (przyj. 05:25:00)
+Linia 148, z Wielkopolska (odj. 05:25:00) do Złotniki (przyj. 05:26:00)
+Linia 148, z Złotniki (odj. 05:26:00) do Małopolska (Ośrodek dla niewidomych) (przyj. 05:27:00)
+Linia 148, z Małopolska (Ośrodek dla niewidomych) (odj. 05:27:00) do Halicka (przyj. 05:28:00)
+Linia 148, z Halicka (odj. 05:28:00) do Częstochowska (przyj. 05:29:00)
+Linia 148, z Częstochowska (odj. 05:29:00) do Jerzmanowska nr 17 (przyj. 05:31:00)
+Linia 129, z Jerzmanowska nr 17 (odj. 05:31:00) do Jerzmanowska nr 9 (przyj. 05:32:00)
+Linia 129, z Jerzmanowska nr 9 (odj. 05:32:00) do Żernicka (przyj. 05:33:00)
+Linia 129, z Żernicka (odj. 05:33:00) do Strachowicka (przyj. 05:34:00)
+Linia 129, z Strachowicka (odj. 05:34:00) do Żerniki (przyj. 05:35:00)
+Linia 129, z Żerniki (odj. 05:35:00) do Szczecińska (przyj. 05:36:00)
+Linia 129, z Szczecińska (odj. 05:36:00) do Kołobrzeska (przyj. 05:38:00)
+Linia 148, z Kołobrzeska (odj. 05:38:00) do Wrocław Nowy Dwór (P+R) (przyj. 05:39:00)
+Linia 23, z Wrocław Nowy Dwór (P+R) (odj. 05:40:00) do Park Tysiąclecia (przyj. 05:41:00)
+Linia 23, z Park Tysiąclecia (odj. 05:41:00) do Zemska (przyj. 05:42:00)
+Linia 23, z Zemska (odj. 05:42:00) do Budziszyńska (przyj. 05:43:00)
+Linia 23, z Budziszyńska (odj. 05:43:00) do Rogowska (ogrody działkowe) (przyj. 05:44:00)
+Linia 23, z Rogowska (ogrody działkowe) (odj. 05:44:00) do Rogowska (P+R) (przyj. 05:45:00)
+
+Całkowity czas podróży: 301 minut
+ Czas wykonanie:  8.618633800011594
+Testcase: SPISKA (Ośrodek sportu) -> Wallenroda
+Optimization: t
+Start Time: 14:45:00
+Harmonogram przejazdu:
+Linia 136, z SPISKA (Ośrodek sportu) (odj. 14:47:00) do Wiśniowa (przyj. 14:49:00)
+Linia 9, z Wiśniowa (odj. 14:52:00) do Uniwersytet Ekonomiczny (przyj. 14:54:00)
+Linia 9, z Uniwersytet Ekonomiczny (odj. 14:54:00) do Sanocka (przyj. 14:55:00)
+Linia 9, z Sanocka (odj. 14:55:00) do DWORZEC AUTOBUSOWY (przyj. 14:57:00)
+Linia 9, z DWORZEC AUTOBUSOWY (odj. 14:57:00) do DWORZEC GŁÓWNY (przyj. 14:59:00)
+Linia 145, z DWORZEC GŁÓWNY (odj. 15:02:00) do Dworzec Główny (Dworcowa) (przyj. 15:04:00)
+Linia 145, z Dworzec Główny (Dworcowa) (odj. 15:04:00) do skwer Krasińskiego (przyj. 15:06:00)
+Linia 145, z skwer Krasińskiego (odj. 15:06:00) do Krasińskiego (przyj. 15:07:00)
+Linia 145, z Krasińskiego (odj. 15:07:00) do Urząd Wojewódzki (Impart) (przyj. 15:10:00)
+Linia 145, z Urząd Wojewódzki (Impart) (odj. 15:10:00) do most Grunwaldzki (przyj. 15:11:00)
+Linia 145, z most Grunwaldzki (odj. 15:11:00) do PL. GRUNWALDZKI (przyj. 15:13:00)
+Linia 921, z PL. GRUNWALDZKI (odj. 15:13:00) do Kochanowskiego (przyj. 15:15:00)
+Linia 121, z Kochanowskiego (odj. 15:15:00) do Śniadeckich (przyj. 15:16:00)
+Linia 121, z Śniadeckich (odj. 15:16:00) do Zacisze (przyj. 15:17:00)
+Linia 121, z Zacisze (odj. 15:17:00) do Kwidzyńska (przyj. 15:19:00)
+Linia 121, z Kwidzyńska (odj. 15:19:00) do Brücknera (przyj. 15:21:00)
+Linia 121, z Brücknera (odj. 15:21:00) do C.H. Korona (przyj. 15:23:00)
+Linia 121, z C.H. Korona (odj. 15:23:00) do Zielna (przyj. 15:25:00)
+Linia 121, z Zielna (odj. 15:25:00) do Psie Pole (przyj. 15:26:00)
+Linia 121, z Psie Pole (odj. 15:26:00) do Psie Pole (Rondo Lotników Polskich) (przyj. 15:27:00)
+Linia 128 , z Psie Pole (Rondo Lotników Polskich) (odj. 15:27:00) do Zakrzowska (przyj. 15:28:00)
+Linia 128 , z Zakrzowska (odj. 15:28:00) do Kopańskiego (przyj. 15:29:00)
+Linia 128 , z Kopańskiego (odj. 15:29:00) do Wallenroda (przyj. 15:30:00)
+
+Całkowity czas podróży: 45 minut
+ Czas wykonanie:  31.32128509998438
+Testcase: most Grunwaldzki -> Krasińskiego
+Optimization: t
+Start Time: 10:16:00
+Harmonogram przejazdu:
+Linia 145, z most Grunwaldzki (odj. 10:16:00) do Poczta Główna (przyj. 10:18:00)
+Linia 145, z Poczta Główna (odj. 10:18:00) do skwer Krasińskiego (przyj. 10:21:00)
+Linia 146, z skwer Krasińskiego (odj. 10:21:00) do Krasińskiego (przyj. 10:22:00)
+
+Całkowity czas podróży: 6 minut
+ Czas wykonanie:  0.8512786999926902
+Testcase: Bajana -> Smolec - Wrocławska
+Optimization: t
+Start Time: 21:03:00
+Harmonogram przejazdu:
+Linia 22, z Bajana (odj. 21:03:00) do Metalowców (przyj. 21:05:00)
+Linia 152, z Metalowców (odj. 21:06:00) do METALOWCÓW (Ośrodek sportu) (przyj. 21:07:00)
+Linia 152, z METALOWCÓW (Ośrodek sportu) (odj. 21:07:00) do KUŹNIKI (przyj. 21:09:00)
+Linia 152, z KUŹNIKI (odj. 21:09:00) do Hermanowska (przyj. 21:10:00)
+Linia 152, z Hermanowska (odj. 21:10:00) do Chociebuska (C. K. Nowy Pafawag) (przyj. 21:12:00)
+Linia 152, z Chociebuska (C. K. Nowy Pafawag) (odj. 21:12:00) do Strzegomska (krzyżówka) (przyj. 21:13:00)
+Linia 124, z Strzegomska (krzyżówka) (odj. 21:13:00) do Rogowska (P+R) (przyj. 21:14:00)
+Linia 106, z Rogowska (P+R) (odj. 21:16:00) do MIŃSKA (Rondo Rotm. Pileckiego) (przyj. 21:18:00)
+Linia 152, z MIŃSKA (Rondo Rotm. Pileckiego) (odj. 21:18:00) do Tyrmanda (przyj. 21:19:00)
+Linia 152, z Tyrmanda (odj. 21:19:00) do Zagony (przyj. 21:20:00)
+Linia 152, z Zagony (odj. 21:20:00) do Muchobór Wielki (przyj. 21:21:00)
+Linia 152, z Muchobór Wielki (odj. 21:21:00) do Stanisławowska (W.K. Formaty) (przyj. 21:22:00)
+Linia 152, z Stanisławowska (W.K. Formaty) (odj. 21:22:00) do Trawowa (przyj. 21:23:00)
+Linia 152, z Trawowa (odj. 21:23:00) do Krzemieniecka (przyj. 21:24:00)
+Linia 152, z Krzemieniecka (odj. 21:24:00) do Końcowa (przyj. 21:25:00)
+Linia 152, z Końcowa (odj. 21:25:00) do Ostrowskiego (przyj. 21:27:00)
+Linia 152, z Ostrowskiego (odj. 21:27:00) do FAT (przyj. 21:29:00)
+Linia 125, z FAT (odj. 21:29:00) do GRABISZYŃSKA (Cmentarz) (przyj. 21:30:00)
+Linia 125, z GRABISZYŃSKA (Cmentarz) (odj. 21:30:00) do GRABISZYŃSKA (Cmentarz II) (przyj. 21:31:00)
+Linia 125, z GRABISZYŃSKA (Cmentarz II) (odj. 21:31:00) do OPORÓW (przyj. 21:32:00)
+Linia 125, z OPORÓW (odj. 21:32:00) do Solskiego (przyj. 21:33:00)
+Linia 125, z Solskiego (odj. 21:33:00) do Wiejska (przyj. 21:34:00)
+Linia 125, z Wiejska (odj. 21:34:00) do Jordanowska (przyj. 21:35:00)
+Linia 947, z Jordanowska (odj. 22:42:00) do Mokronos Dolny - Parkowa/Stawowa (przyj. 22:45:00)
+Linia 947, z Mokronos Dolny - Parkowa/Stawowa (odj. 22:45:00) do Mokronos Dolny - Stawowa/Szczęśliwa (przyj. 22:46:00)
+Linia 947, z Mokronos Dolny - Stawowa/Szczęśliwa (odj. 22:46:00) do Mokronos Górny - Wrocławska/Gwarna (przyj. 22:49:00)
+Linia 947, z Mokronos Górny - Wrocławska/Gwarna (odj. 22:49:00) do Smolec - Wrocławska (przyj. 22:52:00)
+
+Całkowity czas podróży: 109 minut
+ Czas wykonanie:  45.136446499993326
+Testcase: Krępicka -> Kadłub wieś
+Optimization: t
+Start Time: 05:58:00
+Harmonogram przejazdu:
+Linia 137, z Krępicka (odj. 06:27:00) do Krępicka - szkoła (przyj. 06:28:00)
+Linia 137, z Krępicka - szkoła (odj. 06:28:00) do Zajazdowa (przyj. 06:29:00)
+Linia 137, z Zajazdowa (odj. 06:29:00) do Eluarda (przyj. 06:30:00)
+Linia 137, z Eluarda (odj. 06:30:00) do Średzka (przyj. 06:31:00)
+Linia 938, z Średzka (odj. 06:43:00) do Leśnica - Hermes (przyj. 06:44:00)
+Linia 938, z Leśnica - Hermes (odj. 06:44:00) do Mokrzańska (przyj. 06:45:00)
+Linia 938, z Mokrzańska (odj. 06:45:00) do ŻAR (przyj. 06:48:00)
+Linia 938, z ŻAR (odj. 06:48:00) do Wróblowice Innowacyjna (przyj. 06:51:00)
+Linia 938, z Wróblowice Innowacyjna (odj. 06:51:00) do Lutynia Rondo (przyj. 06:52:00)
+Linia 938, z Lutynia Rondo (odj. 07:15:00) do Krępice (przyj. 07:17:00)
+Linia 948, z Krępice (odj. 10:31:00) do Wróblowice (przyj. 10:33:00)
+Linia 948, z Wróblowice (odj. 10:33:00) do Błonie (przyj. 10:36:00)
+Linia 948, z Błonie (odj. 10:36:00) do Źródła (przyj. 10:38:00)
+Linia 948, z Źródła (odj. 10:38:00) do Kadłub wieś (przyj. 10:42:00)
+
+Całkowity czas podróży: 284 minut
+ Czas wykonanie:  55.87108150002314
+Testcase: KOSZAROWA (Szpital) -> Brzezia Łąka - cmentarz
+Optimization: t
+Start Time: 11:38:00
+Harmonogram przejazdu:
+Linia 119, z KOSZAROWA (Szpital) (odj. 11:39:00) do pl. Daniłowskiego (przyj. 11:42:00)
+Linia 132, z pl. Daniłowskiego (odj. 11:47:00) do Berenta (przyj. 11:48:00)
+Linia 132, z Berenta (odj. 11:48:00) do KROMERA (przyj. 11:53:00)
+Linia 23, z KROMERA (odj. 11:53:00) do Kętrzyńska (przyj. 11:54:00)
+Linia 23, z Kętrzyńska (odj. 11:54:00) do Kwidzyńska (przyj. 11:55:00)
+Linia 118, z Kwidzyńska (odj. 11:57:00) do Brücknera (przyj. 11:59:00)
+Linia N, z Brücknera (odj. 12:00:00) do Psie Pole (przyj. 12:04:00)
+Linia N, z Psie Pole (odj. 12:04:00) do Psie Pole (Rondo Lotników Polskich) (przyj. 12:05:00)
+Linia N, z Psie Pole (Rondo Lotników Polskich) (odj. 12:05:00) do KIEŁCZOWSKA (LZN) (przyj. 12:07:00)
+Linia N, z KIEŁCZOWSKA (LZN) (odj. 12:07:00) do Poleska (przyj. 12:08:00)
+Linia N, z Poleska (odj. 12:08:00) do Kiełczowska (przyj. 12:09:00)
+Linia N, z Kiełczowska (odj. 12:09:00) do Żmudzka (przyj. 12:10:00)
+Linia 931, z Żmudzka (odj. 12:12:00) do Kiełczowska (Cmentarz) (przyj. 12:13:00)
+Linia 931, z Kiełczowska (Cmentarz) (odj. 12:13:00) do Kiełczów - Sosnowa (przyj. 12:14:00)
+Linia 931, z Kiełczów - Sosnowa (odj. 12:14:00) do Kiełczów - Biedronka (przyj. 12:15:00)
+Linia 931, z Kiełczów - Biedronka (odj. 12:15:00) do Kiełczów - Wrocławska (przyj. 12:16:00)
+Linia 931, z Kiełczów - Wrocławska (odj. 12:16:00) do Kiełczów - pętla/Wrocławska (przyj. 12:17:00)
+Linia 931, z Kiełczów - pętla/Wrocławska (odj. 12:17:00) do Kiełczów - Zgodna (przyj. 12:18:00)
+Linia 931, z Kiełczów - Zgodna (odj. 12:18:00) do Śliwice (przyj. 12:21:00)
+Linia 931, z Śliwice (odj. 12:21:00) do Pietrzykowice (przyj. 12:23:00)
+Linia 931, z Pietrzykowice (odj. 12:23:00) do Brzezia Łąka - cmentarz (przyj. 12:24:00)
+
+Całkowity czas podróży: 46 minut
+ Czas wykonanie:  27.660727900016354
+
+
+
+/////// A star - Time criteria
+
+
+
+
+Testcase: Babimojska -> Biegasa
+Optimization: t
+Start Time: 16:58:00
+Harmonogram przejazdu:
+Linia 149, z Babimojska (odj. 16:59:00) do Park Biznesu (przyj. 17:00:00)
+Linia 149, z Park Biznesu (odj. 17:00:00) do Wrocławski Park Przemysłowy (przyj. 17:02:00)
+Linia 149, z Wrocławski Park Przemysłowy (odj. 17:02:00) do Śrubowa (przyj. 17:04:00)
+Linia 149, z Śrubowa (odj. 17:04:00) do Smolecka (przyj. 17:05:00)
+Linia 149, z Smolecka (odj. 17:05:00) do Dworzec Świebodzki (przyj. 17:07:00)
+Linia 149, z Dworzec Świebodzki (odj. 17:07:00) do pl. Orląt Lwowskich (przyj. 17:09:00)
+Linia 149, z pl. Orląt Lwowskich (odj. 17:09:00) do Renoma (przyj. 17:11:00)
+Linia 149, z Renoma (odj. 17:11:00) do Dworzec Główny (Dworcowa) (przyj. 17:15:00)
+Linia 149, z Dworzec Główny (Dworcowa) (odj. 17:15:00) do skwer Krasińskiego (przyj. 17:17:00)
+Linia 149, z skwer Krasińskiego (odj. 17:17:00) do Krasińskiego (przyj. 17:18:00)
+Linia 149, z Krasińskiego (odj. 17:18:00) do Urząd Wojewódzki (Impart) (przyj. 17:21:00)
+Linia 149, z Urząd Wojewódzki (Impart) (odj. 17:21:00) do most Grunwaldzki (przyj. 17:22:00)
+Linia 149, z most Grunwaldzki (odj. 17:22:00) do PL. GRUNWALDZKI (przyj. 17:25:00)
+Linia 19, z PL. GRUNWALDZKI (odj. 17:25:00) do Kliniki - Politechnika Wrocławska (przyj. 17:27:00)
+Linia 19, z Kliniki - Politechnika Wrocławska (odj. 17:27:00) do Hala Stulecia (przyj. 17:29:00)
+Linia 19, z Hala Stulecia (odj. 17:29:00) do ZOO (przyj. 17:30:00)
+Linia 2, z ZOO (odj. 17:31:00) do Tramwajowa (przyj. 17:33:00)
+Linia 4, z Tramwajowa (odj. 17:33:00) do Chełmońskiego (przyj. 17:34:00)
+Linia 143, z Chełmońskiego (odj. 17:37:00) do Biegasa (przyj. 17:38:00)
+
+Całkowity czas podróży: 40 minut
+ Czas wykonanie:  82.93357239998295
+Testcase: Kadłub NŻ -> Rogowska (P+R)
+Optimization: t
+Start Time: 00:44:00
+Harmonogram przejazdu:
+Linia 948, z Kadłub NŻ (odj. 04:59:00) do Kadłub wieś (przyj. 05:00:00)
+Linia 948, z Kadłub wieś (odj. 05:00:00) do Źródła (przyj. 05:04:00)
+Linia 948, z Źródła (odj. 05:04:00) do Błonie (przyj. 05:06:00)
+Linia 948, z Błonie (odj. 05:06:00) do Wróblowice (przyj. 05:10:00)
+Linia 948, z Wróblowice (odj. 05:10:00) do Krępice (przyj. 05:12:00)
+Linia 948, z Krępice (odj. 05:12:00) do ŻAR (przyj. 05:15:00)
+Linia 948, z ŻAR (odj. 05:15:00) do Mokrzańska (przyj. 05:18:00)
+Linia 948, z Mokrzańska (odj. 05:18:00) do Leśnica - Hermes (przyj. 05:19:00)
+Linia 948, z Leśnica - Hermes (odj. 05:19:00) do Średzka (przyj. 05:19:00)
+Linia 148, z Średzka (odj. 05:20:00) do LEŚNICA (przyj. 05:22:00)
+Linia 148, z LEŚNICA (odj. 05:22:00) do Wschowska (przyj. 05:23:00)
+Linia 148, z Wschowska (odj. 05:23:00) do Złotnicka (przyj. 05:24:00)
+Linia 148, z Złotnicka (odj. 05:24:00) do Wielkopolska (przyj. 05:25:00)
+Linia 148, z Wielkopolska (odj. 05:25:00) do Złotniki (przyj. 05:26:00)
+Linia 148, z Złotniki (odj. 05:26:00) do Małopolska (Ośrodek dla niewidomych) (przyj. 05:27:00)
+Linia 148, z Małopolska (Ośrodek dla niewidomych) (odj. 05:27:00) do Halicka (przyj. 05:28:00)
+Linia 148, z Halicka (odj. 05:28:00) do Częstochowska (przyj. 05:29:00)
+Linia 148, z Częstochowska (odj. 05:29:00) do Jerzmanowska nr 17 (przyj. 05:31:00)
+Linia 129, z Jerzmanowska nr 17 (odj. 05:31:00) do Jerzmanowska nr 9 (przyj. 05:32:00)
+Linia 129, z Jerzmanowska nr 9 (odj. 05:32:00) do Żernicka (przyj. 05:33:00)
+Linia 129, z Żernicka (odj. 05:33:00) do Strachowicka (przyj. 05:34:00)
+Linia 129, z Strachowicka (odj. 05:34:00) do Żerniki (przyj. 05:35:00)
+Linia 129, z Żerniki (odj. 05:35:00) do Szczecińska (przyj. 05:36:00)
+Linia 129, z Szczecińska (odj. 05:36:00) do Kołobrzeska (przyj. 05:38:00)
+Linia 148, z Kołobrzeska (odj. 05:38:00) do Wrocław Nowy Dwór (P+R) (przyj. 05:39:00)
+Linia 23, z Wrocław Nowy Dwór (P+R) (odj. 05:40:00) do Park Tysiąclecia (przyj. 05:41:00)
+Linia 23, z Park Tysiąclecia (odj. 05:41:00) do Zemska (przyj. 05:42:00)
+Linia 23, z Zemska (odj. 05:42:00) do Budziszyńska (przyj. 05:43:00)
+Linia 23, z Budziszyńska (odj. 05:43:00) do Rogowska (ogrody działkowe) (przyj. 05:44:00)
+Linia 23, z Rogowska (ogrody działkowe) (odj. 05:44:00) do Rogowska (P+R) (przyj. 05:45:00)
+
+Całkowity czas podróży: 301 minut
+ Czas wykonanie:  34.980451399984304
+Testcase: SPISKA (Ośrodek sportu) -> Wallenroda
+Optimization: t
+Start Time: 14:45:00
+Harmonogram przejazdu:
+Linia 136, z SPISKA (Ośrodek sportu) (odj. 14:47:00) do Wiśniowa (przyj. 14:49:00)
+Linia 9, z Wiśniowa (odj. 14:52:00) do Uniwersytet Ekonomiczny (przyj. 14:54:00)
+Linia 9, z Uniwersytet Ekonomiczny (odj. 14:54:00) do Sanocka (przyj. 14:55:00)
+Linia 9, z Sanocka (odj. 14:55:00) do DWORZEC AUTOBUSOWY (przyj. 14:57:00)
+Linia 9, z DWORZEC AUTOBUSOWY (odj. 14:57:00) do DWORZEC GŁÓWNY (przyj. 14:59:00)
+Linia 145, z DWORZEC GŁÓWNY (odj. 15:02:00) do Dworzec Główny (Dworcowa) (przyj. 15:04:00)
+Linia 145, z Dworzec Główny (Dworcowa) (odj. 15:04:00) do skwer Krasińskiego (przyj. 15:06:00)
+Linia 145, z skwer Krasińskiego (odj. 15:06:00) do Krasińskiego (przyj. 15:07:00)
+Linia 145, z Krasińskiego (odj. 15:07:00) do Urząd Wojewódzki (Impart) (przyj. 15:10:00)
+Linia 145, z Urząd Wojewódzki (Impart) (odj. 15:10:00) do most Grunwaldzki (przyj. 15:11:00)
+Linia 145, z most Grunwaldzki (odj. 15:11:00) do PL. GRUNWALDZKI (przyj. 15:13:00)
+Linia 921, z PL. GRUNWALDZKI (odj. 15:13:00) do Kochanowskiego (przyj. 15:15:00)
+Linia 121, z Kochanowskiego (odj. 15:15:00) do Śniadeckich (przyj. 15:16:00)
+Linia 121, z Śniadeckich (odj. 15:16:00) do Zacisze (przyj. 15:17:00)
+Linia 121, z Zacisze (odj. 15:17:00) do Kwidzyńska (przyj. 15:19:00)
+Linia 121, z Kwidzyńska (odj. 15:19:00) do Brücknera (przyj. 15:21:00)
+Linia 121, z Brücknera (odj. 15:21:00) do C.H. Korona (przyj. 15:23:00)
+Linia 121, z C.H. Korona (odj. 15:23:00) do Zielna (przyj. 15:25:00)
+Linia 121, z Zielna (odj. 15:25:00) do Psie Pole (przyj. 15:26:00)
+Linia 121, z Psie Pole (odj. 15:26:00) do Psie Pole (Rondo Lotników Polskich) (przyj. 15:27:00)
+Linia 128 , z Psie Pole (Rondo Lotników Polskich) (odj. 15:27:00) do Zakrzowska (przyj. 15:28:00)
+Linia 128 , z Zakrzowska (odj. 15:28:00) do Kopańskiego (przyj. 15:29:00)
+Linia 128 , z Kopańskiego (odj. 15:29:00) do Wallenroda (przyj. 15:30:00)
+
+Całkowity czas podróży: 45 minut
+ Czas wykonanie:  106.96371919999365
+Testcase: most Grunwaldzki -> Krasińskiego
+Optimization: t
+Start Time: 10:16:00
+Harmonogram przejazdu:
+Linia 145, z most Grunwaldzki (odj. 10:16:00) do Poczta Główna (przyj. 10:18:00)
+Linia 145, z Poczta Główna (odj. 10:18:00) do skwer Krasińskiego (przyj. 10:21:00)
+Linia 146, z skwer Krasińskiego (odj. 10:21:00) do Krasińskiego (przyj. 10:22:00)
+
+Całkowity czas podróży: 6 minut
+ Czas wykonanie:  7.25302480001119
+Testcase: Bajana -> Smolec - Wrocławska
+Optimization: t
+Start Time: 21:03:00
+Harmonogram przejazdu:
+Linia 22, z Bajana (odj. 21:03:00) do Metalowców (przyj. 21:05:00)
+Linia 152, z Metalowców (odj. 21:06:00) do METALOWCÓW (Ośrodek sportu) (przyj. 21:07:00)
+Linia 152, z METALOWCÓW (Ośrodek sportu) (odj. 21:07:00) do KUŹNIKI (przyj. 21:09:00)
+Linia 152, z KUŹNIKI (odj. 21:09:00) do Hermanowska (przyj. 21:10:00)
+Linia 152, z Hermanowska (odj. 21:10:00) do Chociebuska (C. K. Nowy Pafawag) (przyj. 21:12:00)
+Linia 152, z Chociebuska (C. K. Nowy Pafawag) (odj. 21:12:00) do Strzegomska (krzyżówka) (przyj. 21:13:00)
+Linia 124, z Strzegomska (krzyżówka) (odj. 21:13:00) do Rogowska (P+R) (przyj. 21:14:00)
+Linia 106, z Rogowska (P+R) (odj. 21:16:00) do MIŃSKA (Rondo Rotm. Pileckiego) (przyj. 21:18:00)
+Linia 152, z MIŃSKA (Rondo Rotm. Pileckiego) (odj. 21:18:00) do Tyrmanda (przyj. 21:19:00)
+Linia 152, z Tyrmanda (odj. 21:19:00) do Zagony (przyj. 21:20:00)
+Linia 152, z Zagony (odj. 21:20:00) do Muchobór Wielki (przyj. 21:21:00)
+Linia 152, z Muchobór Wielki (odj. 21:21:00) do Stanisławowska (W.K. Formaty) (przyj. 21:22:00)
+Linia 152, z Stanisławowska (W.K. Formaty) (odj. 21:22:00) do Trawowa (przyj. 21:23:00)
+Linia 152, z Trawowa (odj. 21:23:00) do Krzemieniecka (przyj. 21:24:00)
+Linia 152, z Krzemieniecka (odj. 21:24:00) do Końcowa (przyj. 21:25:00)
+Linia 152, z Końcowa (odj. 21:25:00) do Ostrowskiego (przyj. 21:27:00)
+Linia 152, z Ostrowskiego (odj. 21:27:00) do FAT (przyj. 21:29:00)
+Linia 125, z FAT (odj. 21:29:00) do GRABISZYŃSKA (Cmentarz) (przyj. 21:30:00)
+Linia 125, z GRABISZYŃSKA (Cmentarz) (odj. 21:30:00) do GRABISZYŃSKA (Cmentarz II) (przyj. 21:31:00)
+Linia 125, z GRABISZYŃSKA (Cmentarz II) (odj. 21:31:00) do OPORÓW (przyj. 21:32:00)
+Linia 125, z OPORÓW (odj. 21:32:00) do Solskiego (przyj. 21:33:00)
+Linia 125, z Solskiego (odj. 21:33:00) do Wiejska (przyj. 21:34:00)
+Linia 125, z Wiejska (odj. 21:34:00) do Jordanowska (przyj. 21:35:00)
+Linia 947, z Jordanowska (odj. 22:42:00) do Mokronos Dolny - Parkowa/Stawowa (przyj. 22:45:00)
+Linia 947, z Mokronos Dolny - Parkowa/Stawowa (odj. 22:45:00) do Mokronos Dolny - Stawowa/Szczęśliwa (przyj. 22:46:00)
+Linia 947, z Mokronos Dolny - Stawowa/Szczęśliwa (odj. 22:46:00) do Mokronos Górny - Wrocławska/Gwarna (przyj. 22:49:00)
+Linia 947, z Mokronos Górny - Wrocławska/Gwarna (odj. 22:49:00) do Smolec - Wrocławska (przyj. 22:52:00)
+
+Całkowity czas podróży: 109 minut
+ Czas wykonanie:  70.89421130000846
+Testcase: Krępicka -> Kadłub wieś
+Optimization: t
+Start Time: 05:58:00
+Harmonogram przejazdu:
+Linia 137, z Krępicka (odj. 06:27:00) do Krępicka - szkoła (przyj. 06:28:00)
+Linia 137, z Krępicka - szkoła (odj. 06:28:00) do Zajazdowa (przyj. 06:29:00)
+Linia 137, z Zajazdowa (odj. 06:29:00) do Eluarda (przyj. 06:30:00)
+Linia 137, z Eluarda (odj. 06:30:00) do Średzka (przyj. 06:31:00)
+Linia 938, z Średzka (odj. 06:43:00) do Leśnica - Hermes (przyj. 06:44:00)
+Linia 938, z Leśnica - Hermes (odj. 06:44:00) do Mokrzańska (przyj. 06:45:00)
+Linia 938, z Mokrzańska (odj. 06:45:00) do ŻAR (przyj. 06:48:00)
+Linia 938, z ŻAR (odj. 06:48:00) do Wróblowice Innowacyjna (przyj. 06:51:00)
+Linia 938, z Wróblowice Innowacyjna (odj. 06:51:00) do Lutynia Rondo (przyj. 06:52:00)
+Linia 938, z Lutynia Rondo (odj. 07:15:00) do Krępice (przyj. 07:17:00)
+Linia 948, z Krępice (odj. 10:31:00) do Wróblowice (przyj. 10:33:00)
+Linia 948, z Wróblowice (odj. 10:33:00) do Błonie (przyj. 10:36:00)
+Linia 948, z Błonie (odj. 10:36:00) do Źródła (przyj. 10:38:00)
+Linia 948, z Źródła (odj. 10:38:00) do Kadłub wieś (przyj. 10:42:00)
+
+Całkowity czas podróży: 284 minut
+ Czas wykonanie:  204.49867850000737
+Testcase: KOSZAROWA (Szpital) -> Brzezia Łąka - cmentarz
+Optimization: t
+Start Time: 11:38:00
+Harmonogram przejazdu:
+Linia 119, z KOSZAROWA (Szpital) (odj. 11:39:00) do pl. Daniłowskiego (przyj. 11:42:00)
+Linia 132, z pl. Daniłowskiego (odj. 11:47:00) do Berenta (przyj. 11:48:00)
+Linia 132, z Berenta (odj. 11:48:00) do KROMERA (przyj. 11:53:00)
+Linia 23, z KROMERA (odj. 11:53:00) do Kętrzyńska (przyj. 11:54:00)
+Linia 23, z Kętrzyńska (odj. 11:54:00) do Kwidzyńska (przyj. 11:55:00)
+Linia 118, z Kwidzyńska (odj. 11:57:00) do Brücknera (przyj. 11:59:00)
+Linia N, z Brücknera (odj. 12:00:00) do Psie Pole (przyj. 12:04:00)
+Linia N, z Psie Pole (odj. 12:04:00) do Psie Pole (Rondo Lotników Polskich) (przyj. 12:05:00)
+Linia N, z Psie Pole (Rondo Lotników Polskich) (odj. 12:05:00) do KIEŁCZOWSKA (LZN) (przyj. 12:07:00)
+Linia N, z KIEŁCZOWSKA (LZN) (odj. 12:07:00) do Poleska (przyj. 12:08:00)
+Linia N, z Poleska (odj. 12:08:00) do Kiełczowska (przyj. 12:09:00)
+Linia N, z Kiełczowska (odj. 12:09:00) do Żmudzka (przyj. 12:10:00)
+Linia 931, z Żmudzka (odj. 12:12:00) do Kiełczowska (Cmentarz) (przyj. 12:13:00)
+Linia 931, z Kiełczowska (Cmentarz) (odj. 12:13:00) do Kiełczów - Sosnowa (przyj. 12:14:00)
+Linia 931, z Kiełczów - Sosnowa (odj. 12:14:00) do Kiełczów - Biedronka (przyj. 12:15:00)
+Linia 931, z Kiełczów - Biedronka (odj. 12:15:00) do Kiełczów - Wrocławska (przyj. 12:16:00)
+Linia 931, z Kiełczów - Wrocławska (odj. 12:16:00) do Kiełczów - pętla/Wrocławska (przyj. 12:17:00)
+Linia 931, z Kiełczów - pętla/Wrocławska (odj. 12:17:00) do Kiełczów - Zgodna (przyj. 12:18:00)
+Linia 931, z Kiełczów - Zgodna (odj. 12:18:00) do Śliwice (przyj. 12:21:00)
+Linia 931, z Śliwice (odj. 12:21:00) do Pietrzykowice (przyj. 12:23:00)
+Linia 931, z Pietrzykowice (odj. 12:23:00) do Brzezia Łąka - cmentarz (przyj. 12:24:00)
+
+Całkowity czas podróży: 46 minut
+ Czas wykonanie:  117.9735587000032
+
+
+///// ASTAR - Transfer criteria
+
+Testcase: Babimojska -> Biegasa
+Optimization: t
+Start Time: 16:58:00
+Harmonogram przejazdu:
+Linia 149, z Babimojska (odj. 16:59:00) do Park Biznesu (przyj. 17:00:00)
+Linia 149, z Park Biznesu (odj. 17:00:00) do Wrocławski Park Przemysłowy (przyj. 17:02:00)
+Linia 149, z Wrocławski Park Przemysłowy (odj. 17:02:00) do Śrubowa (przyj. 17:04:00)
+Linia 149, z Śrubowa (odj. 17:04:00) do Smolecka (przyj. 17:05:00)
+Linia 149, z Smolecka (odj. 17:05:00) do Dworzec Świebodzki (przyj. 17:07:00)
+Linia 149, z Dworzec Świebodzki (odj. 17:07:00) do pl. Orląt Lwowskich (przyj. 17:09:00)
+Linia 149, z pl. Orląt Lwowskich (odj. 17:09:00) do Renoma (przyj. 17:11:00)
+Linia 149, z Renoma (odj. 17:11:00) do Dworzec Główny (Dworcowa) (przyj. 17:15:00)
+Linia 114, z Dworzec Główny (Dworcowa) (odj. 17:19:00) do Kościuszki (przyj. 17:21:00)
+Linia 114, z Kościuszki (odj. 17:21:00) do Świstackiego (przyj. 17:22:00)
+Linia 114, z Świstackiego (odj. 17:22:00) do Na Niskich Łąkach (przyj. 17:24:00)
+Linia 120, z Na Niskich Łąkach (odj. 17:53:00) do Rakowiecka (przyj. 17:55:00)
+Linia 120, z Rakowiecka (odj. 17:55:00) do Międzyrzecka (przyj. 17:57:00)
+Linia 143, z Międzyrzecka (odj. 18:06:00) do Biegasa (przyj. 18:08:00)
+
+Całkowity czas podróży: 70 minut
+Całkowita liczba przesiadek: 15
+ Czas wykonanie:  67.54412750003394
+Testcase: Kadłub NŻ -> Rogowska (P+R)
+Optimization: t
+Start Time: 00:44:00
+Harmonogram przejazdu:
+Linia 948, z Kadłub NŻ (odj. 04:59:00) do Kadłub wieś (przyj. 05:00:00)
+Linia 948, z Kadłub wieś (odj. 05:00:00) do Źródła (przyj. 05:04:00)
+Linia 948, z Źródła (odj. 05:04:00) do Błonie (przyj. 05:06:00)
+Linia 948, z Błonie (odj. 05:06:00) do Wróblowice (przyj. 05:10:00)
+Linia 948, z Wróblowice (odj. 05:10:00) do Krępice (przyj. 05:12:00)
+Linia 948, z Krępice (odj. 05:12:00) do ŻAR (przyj. 05:15:00)
+Linia 948, z ŻAR (odj. 05:15:00) do Mokrzańska (przyj. 05:18:00)
+Linia 948, z Mokrzańska (odj. 05:18:00) do Leśnica - Hermes (przyj. 05:19:00)
+Linia 948, z Leśnica - Hermes (odj. 05:19:00) do Średzka (przyj. 05:19:00)
+Linia 948, z Średzka (odj. 05:19:00) do Rubczaka (przyj. 05:20:00)
+Linia 948, z Rubczaka (odj. 05:20:00) do RUBCZAKA (Stacja kolejowa) (przyj. 05:21:00)
+Linia 948, z RUBCZAKA (Stacja kolejowa) (odj. 05:21:00) do LEŚNICA (przyj. 05:22:00)
+Linia 148, z LEŚNICA (odj. 05:22:00) do Wschowska (przyj. 05:23:00)
+Linia 148, z Wschowska (odj. 05:23:00) do Złotnicka (przyj. 05:24:00)
+Linia 148, z Złotnicka (odj. 05:24:00) do Wielkopolska (przyj. 05:25:00)
+Linia 148, z Wielkopolska (odj. 05:25:00) do Złotniki (przyj. 05:26:00)
+Linia 148, z Złotniki (odj. 05:26:00) do Małopolska (Ośrodek dla niewidomych) (przyj. 05:27:00)
+Linia 148, z Małopolska (Ośrodek dla niewidomych) (odj. 05:27:00) do Halicka (przyj. 05:28:00)
+Linia 148, z Halicka (odj. 05:28:00) do Częstochowska (przyj. 05:29:00)
+Linia 148, z Częstochowska (odj. 05:29:00) do Jerzmanowska nr 17 (przyj. 05:31:00)
+Linia 148, z Jerzmanowska nr 17 (odj. 05:31:00) do Jerzmanowska nr 9 (przyj. 05:32:00)
+Linia 148, z Jerzmanowska nr 9 (odj. 05:32:00) do Żernicka (przyj. 05:33:00)
+Linia 148, z Żernicka (odj. 05:33:00) do Strachowicka (przyj. 05:34:00)
+Linia 148, z Strachowicka (odj. 05:34:00) do Żerniki (przyj. 05:35:00)
+Linia 148, z Żerniki (odj. 05:35:00) do Szczecińska (przyj. 05:36:00)
+Linia 148, z Szczecińska (odj. 05:36:00) do Kołobrzeska (przyj. 05:38:00)
+Linia 148, z Kołobrzeska (odj. 05:38:00) do Wrocław Nowy Dwór (P+R) (przyj. 05:39:00)
+Linia 148, z Wrocław Nowy Dwór (P+R) (odj. 05:39:00) do Rogowska (Ośrodek sportu) (przyj. 05:40:00)
+Linia 148, z Rogowska (Ośrodek sportu) (odj. 05:40:00) do Chociebuska (C. K. Nowy Pafawag) (przyj. 05:42:00)
+Linia 148, z Chociebuska (C. K. Nowy Pafawag) (odj. 05:42:00) do Strzegomska (krzyżówka) (przyj. 05:44:00)
+Linia 122, z Strzegomska (krzyżówka) (odj. 05:44:00) do Rogowska (P+R) (przyj. 05:47:00)
+
+Całkowity czas podróży: 303 minut
+Całkowita liczba przesiadek: 32
+ Czas wykonanie:  37.621456300024875
+Testcase: SPISKA (Ośrodek sportu) -> Wallenroda
+Optimization: t
+Start Time: 14:45:00
+Harmonogram przejazdu:
+Linia 136, z SPISKA (Ośrodek sportu) (odj. 14:55:00) do ROD Bajki (przyj. 14:56:00)
+Linia 136, z ROD Bajki (odj. 14:56:00) do Działkowa (przyj. 14:58:00)
+Linia 136, z Działkowa (odj. 14:58:00) do GAJ (przyj. 15:00:00)
+Linia 136, z GAJ (odj. 15:00:00) do Świeradowska (przyj. 15:01:00)
+Linia 136, z Świeradowska (odj. 15:01:00) do Morwowa (przyj. 15:02:00)
+Linia 136, z Morwowa (odj. 15:02:00) do Złotostocka (przyj. 15:03:00)
+Linia 143, z Złotostocka (odj. 15:04:00) do Klimasa (przyj. 15:05:00)
+Linia 143, z Klimasa (odj. 15:05:00) do Armii Krajowej (Bogedaina) (przyj. 15:07:00)
+Linia 143, z Armii Krajowej (Bogedaina) (odj. 15:07:00) do Armii Krajowej (przyj. 15:08:00)
+Linia 143, z Armii Krajowej (odj. 15:08:00) do Międzyrzecka (przyj. 15:10:00)
+Linia 143, z Międzyrzecka (odj. 15:10:00) do Biegasa (przyj. 15:12:00)
+Linia 143, z Biegasa (odj. 15:12:00) do Chełmońskiego (przyj. 15:13:00)
+Linia 143, z Chełmońskiego (odj. 15:13:00) do Dembowskiego (Kosiby) (przyj. 15:15:00)
+Linia 143, z Dembowskiego (Kosiby) (odj. 15:15:00) do 8 Maja (przyj. 15:17:00)
+Linia 143, z 8 Maja (odj. 15:17:00) do Godebskiego (AWF Wrocław) (przyj. 15:18:00)
+Linia 143, z Godebskiego (AWF Wrocław) (odj. 15:18:00) do SĘPOLNO (przyj. 15:19:00)
+Linia 143, z SĘPOLNO (odj. 17:51:00) do Monopolowa (przyj. 17:53:00)
+Linia 143, z Monopolowa (odj. 17:53:00) do Kolumba (przyj. 17:54:00)
+Linia 143, z Kolumba (odj. 17:54:00) do Magellana (przyj. 17:55:00)
+Linia 143, z Magellana (odj. 17:55:00) do Swojczyce (przyj. 17:59:00)
+Linia 143, z Swojczyce (odj. 17:59:00) do Miłoszycka (przyj. 18:01:00)
+Linia 143, z Miłoszycka (odj. 18:01:00) do Gospodarska (przyj. 18:02:00)
+Linia 143, z Gospodarska (odj. 18:02:00) do Ceglana (przyj. 18:02:00)
+Linia 143, z Ceglana (odj. 18:02:00) do Kowalska (przyj. 18:04:00)
+Linia 143, z Kowalska (odj. 18:04:00) do Tczewska (przyj. 18:05:00)
+Linia 143, z Tczewska (odj. 18:05:00) do Działdowska (przyj. 18:06:00)
+Linia 143, z Działdowska (odj. 18:06:00) do Kowale (Stacja kolejowa) (przyj. 18:07:00)
+Linia 143, z Kowale (Stacja kolejowa) (odj. 18:07:00) do Kowalska 56 (przyj. 18:08:00)
+Linia 143, z Kowalska 56 (odj. 18:08:00) do Olsztyńska (przyj. 18:09:00)
+Linia 143, z Olsztyńska (odj. 18:09:00) do C.H. Korona (przyj. 18:11:00)
+Linia 130, z C.H. Korona (odj. 18:11:00) do Zielna (przyj. 18:13:00)
+Linia 130, z Zielna (odj. 18:13:00) do Psie Pole (przyj. 18:14:00)
+Linia 130, z Psie Pole (odj. 18:14:00) do Psie Pole (Rondo Lotników Polskich) (przyj. 18:16:00)
+Linia 130, z Psie Pole (Rondo Lotników Polskich) (odj. 18:16:00) do Zakrzowska (przyj. 18:17:00)
+Linia 130, z Zakrzowska (odj. 18:17:00) do Kopańskiego (przyj. 18:18:00)
+Linia 130, z Kopańskiego (odj. 18:18:00) do Wallenroda (przyj. 18:19:00)
+
+Całkowity czas podróży: 214 minut
+Całkowita liczba przesiadek: 37
+ Czas wykonanie:  95.83008939999854
+Testcase: most Grunwaldzki -> Krasińskiego
+Optimization: t
+Start Time: 10:16:00
+Harmonogram przejazdu:
+Linia 145, z most Grunwaldzki (odj. 10:16:00) do Poczta Główna (przyj. 10:18:00)
+Linia 145, z Poczta Główna (odj. 10:18:00) do skwer Krasińskiego (przyj. 10:21:00)
+Linia 145, z skwer Krasińskiego (odj. 10:35:00) do Krasińskiego (przyj. 10:36:00)
+
+Całkowity czas podróży: 20 minut
+Całkowita liczba przesiadek: 4
+ Czas wykonanie:  4.16772550001042
+Testcase: Bajana -> Smolec - Wrocławska
+Optimization: t
+Start Time: 21:03:00
+Harmonogram przejazdu:
+Linia 10, z Bajana (odj. 21:03:00) do Park Zachodni (przyj. 21:04:00)
+Linia 10, z Park Zachodni (odj. 21:04:00) do DH Astra (przyj. 21:05:00)
+Linia 10, z DH Astra (odj. 21:05:00) do Kwiska (przyj. 21:07:00)
+Linia 607, z Kwiska (odj. 21:39:00) do Wrocławski Park Technologiczny (przyj. 21:44:00)
+Linia 607, z Wrocławski Park Technologiczny (odj. 21:44:00) do FAT (przyj. 21:47:00)
+Linia 607, z FAT (odj. 21:47:00) do Wiejska (przyj. 21:51:00)
+Linia 125, z Wiejska (odj. 22:04:00) do Jordanowska (przyj. 22:05:00)
+Linia 947, z Jordanowska (odj. 22:42:00) do Mokronos Dolny - Parkowa/Stawowa (przyj. 22:45:00)
+Linia 947, z Mokronos Dolny - Parkowa/Stawowa (odj. 22:45:00) do Mokronos Dolny - Stawowa/Szczęśliwa (przyj. 22:46:00)
+Linia 947, z Mokronos Dolny - Stawowa/Szczęśliwa (odj. 22:46:00) do Mokronos Górny - Wrocławska/Gwarna (przyj. 22:49:00)
+Linia 947, z Mokronos Górny - Wrocławska/Gwarna (odj. 22:49:00) do Smolec - Wrocławska (przyj. 22:52:00)
+
+Całkowity czas podróży: 109 minut
+Całkowita liczba przesiadek: 12
+ Czas wykonanie:  56.18333229998825
+Testcase: Krępicka -> Kadłub wieś
+Optimization: t
+Start Time: 05:58:00
+Harmonogram przejazdu:
+Linia 137, z Krępicka (odj. 06:27:00) do Krępicka - szkoła (przyj. 06:28:00)
+Linia 137, z Krępicka - szkoła (odj. 06:28:00) do Zajazdowa (przyj. 06:29:00)
+Linia 137, z Zajazdowa (odj. 06:29:00) do Eluarda (przyj. 06:30:00)
+Linia 137, z Eluarda (odj. 06:30:00) do Średzka (przyj. 06:31:00)
+Linia 938, z Średzka (odj. 06:43:00) do Leśnica - Hermes (przyj. 06:44:00)
+Linia 938, z Leśnica - Hermes (odj. 06:44:00) do Mokrzańska (przyj. 06:45:00)
+Linia 938, z Mokrzańska (odj. 06:45:00) do ŻAR (przyj. 06:48:00)
+Linia 938, z ŻAR (odj. 06:48:00) do Wróblowice Innowacyjna (przyj. 06:51:00)
+Linia 938, z Wróblowice Innowacyjna (odj. 06:51:00) do Lutynia Rondo (przyj. 06:52:00)
+Linia 938, z Lutynia Rondo (odj. 07:15:00) do Krępice (przyj. 07:17:00)
+Linia 948, z Krępice (odj. 10:31:00) do Wróblowice (przyj. 10:33:00)
+Linia 948, z Wróblowice (odj. 10:33:00) do Błonie (przyj. 10:36:00)
+Linia 948, z Błonie (odj. 10:36:00) do Źródła (przyj. 10:38:00)
+Linia 948, z Źródła (odj. 10:38:00) do Kadłub wieś (przyj. 10:42:00)
+
+Całkowity czas podróży: 284 minut
+Całkowita liczba przesiadek: 15
+ Czas wykonanie:  61.34788979997393
+Testcase: KOSZAROWA (Szpital) -> Brzezia Łąka - cmentarz
+Optimization: t
+Start Time: 11:38:00
+Harmonogram przejazdu:
+Linia 119, z KOSZAROWA (Szpital) (odj. 11:39:00) do pl. Daniłowskiego (przyj. 11:42:00)
+Linia 132, z pl. Daniłowskiego (odj. 11:47:00) do Berenta (przyj. 11:48:00)
+Linia 132, z Berenta (odj. 11:48:00) do KROMERA (przyj. 11:53:00)
+Linia D, z KROMERA (odj. 21:48:00) do Grudziądzka (przyj. 21:50:00)
+Linia D, z Grudziądzka (odj. 21:50:00) do Brücknera (przyj. 21:51:00)
+Linia D, z Brücknera (odj. 21:51:00) do Psie Pole (przyj. 21:55:00)
+Linia D, z Psie Pole (odj. 21:55:00) do Psie Pole (Rondo Lotników Polskich) (przyj. 21:56:00)
+Linia N, z Psie Pole (Rondo Lotników Polskich) (odj. 22:03:00) do KIEŁCZOWSKA (LZN) (przyj. 22:05:00)
+Linia N, z KIEŁCZOWSKA (LZN) (odj. 22:05:00) do Poleska (przyj. 22:06:00)
+Linia N, z Poleska (odj. 22:06:00) do Kiełczowska (przyj. 22:07:00)
+Linia N, z Kiełczowska (odj. 22:07:00) do Żmudzka (przyj. 22:08:00)
+Linia 931, z Żmudzka (odj. 22:12:00) do Kiełczowska (Cmentarz) (przyj. 22:13:00)
+Linia 931, z Kiełczowska (Cmentarz) (odj. 22:13:00) do Kiełczów - Sosnowa (przyj. 22:14:00)
+Linia 931, z Kiełczów - Sosnowa (odj. 22:14:00) do Kiełczów - Biedronka (przyj. 22:15:00)
+Linia 931, z Kiełczów - Biedronka (odj. 22:15:00) do Kiełczów - Wrocławska (przyj. 22:16:00)
+Linia 931, z Kiełczów - Wrocławska (odj. 22:16:00) do Kiełczów - pętla/Wrocławska (przyj. 22:17:00)
+Linia 931, z Kiełczów - pętla/Wrocławska (odj. 22:17:00) do Kiełczów - Zgodna (przyj. 22:18:00)
+Linia 931, z Kiełczów - Zgodna (odj. 22:18:00) do Śliwice (przyj. 22:21:00)
+Linia 931, z Śliwice (odj. 22:21:00) do Pietrzykowice (przyj. 22:23:00)
+Linia 931, z Pietrzykowice (odj. 22:23:00) do Brzezia Łąka - cmentarz (przyj. 22:24:00)
+
+Całkowity czas podróży: 646 minut
+Całkowita liczba przesiadek: 21
+ Czas wykonanie:  121.16431929997634
+
+
+////// ASTAR - Time and transfer criteria
+
+Testcase: Babimojska -> Biegasa
+Optimization: t
+Start Time: 16:58:00
+Harmonogram przejazdu:
+Linia 149, z Babimojska (odj. 16:59:00) do Park Biznesu (przyj. 17:00:00)
+Linia 149, z Park Biznesu (odj. 17:00:00) do Wrocławski Park Przemysłowy (przyj. 17:02:00)
+Linia 149, z Wrocławski Park Przemysłowy (odj. 17:02:00) do Śrubowa (przyj. 17:04:00)
+Linia 149, z Śrubowa (odj. 17:04:00) do Smolecka (przyj. 17:05:00)
+Linia 149, z Smolecka (odj. 17:05:00) do Dworzec Świebodzki (przyj. 17:07:00)
+Linia 149, z Dworzec Świebodzki (odj. 17:07:00) do pl. Orląt Lwowskich (przyj. 17:09:00)
+Linia 149, z pl. Orląt Lwowskich (odj. 17:09:00) do Renoma (przyj. 17:11:00)
+Linia 149, z Renoma (odj. 17:11:00) do Dworzec Główny (Dworcowa) (przyj. 17:15:00)
+Linia 149, z Dworzec Główny (Dworcowa) (odj. 17:15:00) do skwer Krasińskiego (przyj. 17:17:00)
+Linia 149, z skwer Krasińskiego (odj. 17:17:00) do Krasińskiego (przyj. 17:18:00)
+Linia 149, z Krasińskiego (odj. 17:18:00) do Urząd Wojewódzki (Impart) (przyj. 17:21:00)
+Linia 149, z Urząd Wojewódzki (Impart) (odj. 17:21:00) do most Grunwaldzki (przyj. 17:22:00)
+Linia 149, z most Grunwaldzki (odj. 17:22:00) do PL. GRUNWALDZKI (przyj. 17:25:00)
+Linia 19, z PL. GRUNWALDZKI (odj. 17:25:00) do Kliniki - Politechnika Wrocławska (przyj. 17:27:00)
+Linia 19, z Kliniki - Politechnika Wrocławska (odj. 17:27:00) do Hala Stulecia (przyj. 17:29:00)
+Linia 19, z Hala Stulecia (odj. 17:29:00) do ZOO (przyj. 17:30:00)
+Linia 2, z ZOO (odj. 17:31:00) do Tramwajowa (przyj. 17:33:00)
+Linia 4, z Tramwajowa (odj. 17:33:00) do Chełmońskiego (przyj. 17:34:00)
+Linia 143, z Chełmońskiego (odj. 17:37:00) do Biegasa (przyj. 17:38:00)
+
+Całkowity czas podróży: 40 minut
+ Czas wykonanie:  74.69284810000681
+Testcase: Kadłub NŻ -> Rogowska (P+R)
+Optimization: t
+Start Time: 00:44:00
+Harmonogram przejazdu:
+Linia 948, z Kadłub NŻ (odj. 04:59:00) do Kadłub wieś (przyj. 05:00:00)
+Linia 948, z Kadłub wieś (odj. 05:00:00) do Źródła (przyj. 05:04:00)
+Linia 948, z Źródła (odj. 05:04:00) do Błonie (przyj. 05:06:00)
+Linia 948, z Błonie (odj. 05:06:00) do Wróblowice (przyj. 05:10:00)
+Linia 948, z Wróblowice (odj. 05:10:00) do Krępice (przyj. 05:12:00)
+Linia 948, z Krępice (odj. 05:12:00) do ŻAR (przyj. 05:15:00)
+Linia 948, z ŻAR (odj. 05:15:00) do Mokrzańska (przyj. 05:18:00)
+Linia 948, z Mokrzańska (odj. 05:18:00) do Leśnica - Hermes (przyj. 05:19:00)
+Linia 948, z Leśnica - Hermes (odj. 05:19:00) do Średzka (przyj. 05:19:00)
+Linia 948, z Średzka (odj. 05:19:00) do Rubczaka (przyj. 05:20:00)
+Linia 948, z Rubczaka (odj. 05:20:00) do RUBCZAKA (Stacja kolejowa) (przyj. 05:21:00)
+Linia 948, z RUBCZAKA (Stacja kolejowa) (odj. 05:21:00) do LEŚNICA (przyj. 05:22:00)
+Linia 148, z LEŚNICA (odj. 05:22:00) do Wschowska (przyj. 05:23:00)
+Linia 148, z Wschowska (odj. 05:23:00) do Złotnicka (przyj. 05:24:00)
+Linia 148, z Złotnicka (odj. 05:24:00) do Wielkopolska (przyj. 05:25:00)
+Linia 148, z Wielkopolska (odj. 05:25:00) do Złotniki (przyj. 05:26:00)
+Linia 148, z Złotniki (odj. 05:26:00) do Małopolska (Ośrodek dla niewidomych) (przyj. 05:27:00)
+Linia 148, z Małopolska (Ośrodek dla niewidomych) (odj. 05:27:00) do Halicka (przyj. 05:28:00)
+Linia 148, z Halicka (odj. 05:28:00) do Częstochowska (przyj. 05:29:00)
+Linia 148, z Częstochowska (odj. 05:29:00) do Jerzmanowska nr 17 (przyj. 05:31:00)
+Linia 148, z Jerzmanowska nr 17 (odj. 05:31:00) do Jerzmanowska nr 9 (przyj. 05:32:00)
+Linia 148, z Jerzmanowska nr 9 (odj. 05:32:00) do Żernicka (przyj. 05:33:00)
+Linia 148, z Żernicka (odj. 05:33:00) do Strachowicka (przyj. 05:34:00)
+Linia 148, z Strachowicka (odj. 05:34:00) do Żerniki (przyj. 05:35:00)
+Linia 148, z Żerniki (odj. 05:35:00) do Szczecińska (przyj. 05:36:00)
+Linia 148, z Szczecińska (odj. 05:36:00) do Kołobrzeska (przyj. 05:38:00)
+Linia 148, z Kołobrzeska (odj. 05:38:00) do Wrocław Nowy Dwór (P+R) (przyj. 05:39:00)
+Linia 23, z Wrocław Nowy Dwór (P+R) (odj. 05:40:00) do Park Tysiąclecia (przyj. 05:41:00)
+Linia 23, z Park Tysiąclecia (odj. 05:41:00) do Zemska (przyj. 05:42:00)
+Linia 23, z Zemska (odj. 05:42:00) do Budziszyńska (przyj. 05:43:00)
+Linia 23, z Budziszyńska (odj. 05:43:00) do Rogowska (ogrody działkowe) (przyj. 05:44:00)
+Linia 23, z Rogowska (ogrody działkowe) (odj. 05:44:00) do Rogowska (P+R) (przyj. 05:45:00)
+
+Całkowity czas podróży: 301 minut
+ Czas wykonanie:  30.697485399985453
+Testcase: SPISKA (Ośrodek sportu) -> Wallenroda
+Optimization: t
+Start Time: 14:45:00
+Harmonogram przejazdu:
+Linia 136, z SPISKA (Ośrodek sportu) (odj. 14:47:00) do Wiśniowa (przyj. 14:49:00)
+Linia 9, z Wiśniowa (odj. 14:52:00) do Uniwersytet Ekonomiczny (przyj. 14:54:00)
+Linia 9, z Uniwersytet Ekonomiczny (odj. 14:54:00) do Sanocka (przyj. 14:55:00)
+Linia 9, z Sanocka (odj. 14:55:00) do DWORZEC AUTOBUSOWY (przyj. 14:57:00)
+Linia 9, z DWORZEC AUTOBUSOWY (odj. 14:57:00) do DWORZEC GŁÓWNY (przyj. 14:59:00)
+Linia 9, z DWORZEC GŁÓWNY (odj. 14:59:00) do Wzgórze Partyzantów (przyj. 15:01:00)
+Linia 9, z Wzgórze Partyzantów (odj. 15:01:00) do GALERIA DOMINIKAŃSKA (przyj. 15:04:00)
+Linia 9, z GALERIA DOMINIKAŃSKA (odj. 15:04:00) do pl. Nowy Targ (przyj. 15:05:00)
+Linia 9, z pl. Nowy Targ (odj. 15:05:00) do Hala Targowa (przyj. 15:06:00)
+Linia 9, z Hala Targowa (odj. 15:06:00) do pl. Bema (przyj. 15:08:00)
+Linia 9, z pl. Bema (odj. 15:08:00) do Ogród Botaniczny (przyj. 15:10:00)
+Linia 9, z Ogród Botaniczny (odj. 15:10:00) do Górnickiego (przyj. 15:11:00)
+Linia 9, z Górnickiego (odj. 15:11:00) do Piastowska (przyj. 15:12:00)
+Linia 9, z Piastowska (odj. 15:12:00) do Grunwaldzka (przyj. 15:13:00)
+Linia 9, z Grunwaldzka (odj. 15:13:00) do Kochanowskiego (przyj. 15:15:00)
+Linia 121, z Kochanowskiego (odj. 15:15:00) do Śniadeckich (przyj. 15:16:00)
+Linia 121, z Śniadeckich (odj. 15:16:00) do Zacisze (przyj. 15:17:00)
+Linia 121, z Zacisze (odj. 15:17:00) do Kwidzyńska (przyj. 15:19:00)
+Linia 121, z Kwidzyńska (odj. 15:19:00) do Brücknera (przyj. 15:21:00)
+Linia 121, z Brücknera (odj. 15:21:00) do C.H. Korona (przyj. 15:23:00)
+Linia 121, z C.H. Korona (odj. 15:23:00) do Zielna (przyj. 15:25:00)
+Linia 121, z Zielna (odj. 15:25:00) do Psie Pole (przyj. 15:26:00)
+Linia 121, z Psie Pole (odj. 15:26:00) do Psie Pole (Rondo Lotników Polskich) (przyj. 15:27:00)
+Linia 128 , z Psie Pole (Rondo Lotników Polskich) (odj. 15:27:00) do Zakrzowska (przyj. 15:28:00)
+Linia 128 , z Zakrzowska (odj. 15:28:00) do Kopańskiego (przyj. 15:29:00)
+Linia 128 , z Kopańskiego (odj. 15:29:00) do Wallenroda (przyj. 15:30:00)
+
+Całkowity czas podróży: 45 minut
+ Czas wykonanie:  96.9099622000067
+Testcase: most Grunwaldzki -> Krasińskiego
+Optimization: t
+Start Time: 10:16:00
+Harmonogram przejazdu:
+Linia 145, z most Grunwaldzki (odj. 10:16:00) do Poczta Główna (przyj. 10:18:00)
+Linia 145, z Poczta Główna (odj. 10:18:00) do skwer Krasińskiego (przyj. 10:21:00)
+Linia 146, z skwer Krasińskiego (odj. 10:21:00) do Krasińskiego (przyj. 10:22:00)
+
+Całkowity czas podróży: 6 minut
+ Czas wykonanie:  6.45156450002105
+Testcase: Bajana -> Smolec - Wrocławska
+Optimization: t
+Start Time: 21:03:00
+Harmonogram przejazdu:
+Linia 22, z Bajana (odj. 21:03:00) do Metalowców (przyj. 21:05:00)
+Linia 152, z Metalowców (odj. 21:06:00) do METALOWCÓW (Ośrodek sportu) (przyj. 21:07:00)
+Linia 152, z METALOWCÓW (Ośrodek sportu) (odj. 21:07:00) do KUŹNIKI (przyj. 21:09:00)
+Linia 152, z KUŹNIKI (odj. 21:09:00) do Hermanowska (przyj. 21:10:00)
+Linia 152, z Hermanowska (odj. 21:10:00) do Chociebuska (C. K. Nowy Pafawag) (przyj. 21:12:00)
+Linia 152, z Chociebuska (C. K. Nowy Pafawag) (odj. 21:12:00) do Strzegomska (krzyżówka) (przyj. 21:13:00)
+Linia 124, z Strzegomska (krzyżówka) (odj. 21:13:00) do Rogowska (P+R) (przyj. 21:14:00)
+Linia 106, z Rogowska (P+R) (odj. 21:16:00) do MIŃSKA (Rondo Rotm. Pileckiego) (przyj. 21:18:00)
+Linia 152, z MIŃSKA (Rondo Rotm. Pileckiego) (odj. 21:18:00) do Tyrmanda (przyj. 21:19:00)
+Linia 152, z Tyrmanda (odj. 21:19:00) do Zagony (przyj. 21:20:00)
+Linia 152, z Zagony (odj. 21:20:00) do Muchobór Wielki (przyj. 21:21:00)
+Linia 152, z Muchobór Wielki (odj. 21:21:00) do Stanisławowska (W.K. Formaty) (przyj. 21:22:00)
+Linia 152, z Stanisławowska (W.K. Formaty) (odj. 21:22:00) do Trawowa (przyj. 21:23:00)
+Linia 152, z Trawowa (odj. 21:23:00) do Krzemieniecka (przyj. 21:24:00)
+Linia 152, z Krzemieniecka (odj. 21:24:00) do Końcowa (przyj. 21:25:00)
+Linia 152, z Końcowa (odj. 21:25:00) do Ostrowskiego (przyj. 21:27:00)
+Linia 152, z Ostrowskiego (odj. 21:27:00) do FAT (przyj. 21:29:00)
+Linia 125, z FAT (odj. 21:29:00) do GRABISZYŃSKA (Cmentarz) (przyj. 21:30:00)
+Linia 125, z GRABISZYŃSKA (Cmentarz) (odj. 21:30:00) do GRABISZYŃSKA (Cmentarz II) (przyj. 21:31:00)
+Linia 125, z GRABISZYŃSKA (Cmentarz II) (odj. 21:31:00) do OPORÓW (przyj. 21:32:00)
+Linia 125, z OPORÓW (odj. 21:32:00) do Solskiego (przyj. 21:33:00)
+Linia 125, z Solskiego (odj. 21:33:00) do Wiejska (przyj. 21:34:00)
+Linia 125, z Wiejska (odj. 21:34:00) do Jordanowska (przyj. 21:35:00)
+Linia 947, z Jordanowska (odj. 22:42:00) do Mokronos Dolny - Parkowa/Stawowa (przyj. 22:45:00)
+Linia 947, z Mokronos Dolny - Parkowa/Stawowa (odj. 22:45:00) do Mokronos Dolny - Stawowa/Szczęśliwa (przyj. 22:46:00)
+Linia 947, z Mokronos Dolny - Stawowa/Szczęśliwa (odj. 22:46:00) do Mokronos Górny - Wrocławska/Gwarna (przyj. 22:49:00)
+Linia 947, z Mokronos Górny - Wrocławska/Gwarna (odj. 22:49:00) do Smolec - Wrocławska (przyj. 22:52:00)
+
+Całkowity czas podróży: 109 minut
+ Czas wykonanie:  65.67557079999824
+Testcase: Krępicka -> Kadłub wieś
+Optimization: t
+Start Time: 05:58:00
+Harmonogram przejazdu:
+Linia 137, z Krępicka (odj. 06:27:00) do Krępicka - szkoła (przyj. 06:28:00)
+Linia 137, z Krępicka - szkoła (odj. 06:28:00) do Zajazdowa (przyj. 06:29:00)
+Linia 137, z Zajazdowa (odj. 06:29:00) do Eluarda (przyj. 06:30:00)
+Linia 137, z Eluarda (odj. 06:30:00) do Średzka (przyj. 06:31:00)
+Linia 938, z Średzka (odj. 06:43:00) do Leśnica - Hermes (przyj. 06:44:00)
+Linia 938, z Leśnica - Hermes (odj. 06:44:00) do Mokrzańska (przyj. 06:45:00)
+Linia 938, z Mokrzańska (odj. 06:45:00) do ŻAR (przyj. 06:48:00)
+Linia 938, z ŻAR (odj. 06:48:00) do Wróblowice Innowacyjna (przyj. 06:51:00)
+Linia 938, z Wróblowice Innowacyjna (odj. 06:51:00) do Lutynia Rondo (przyj. 06:52:00)
+Linia 938, z Lutynia Rondo (odj. 07:15:00) do Krępice (przyj. 07:17:00)
+Linia 948, z Krępice (odj. 10:31:00) do Wróblowice (przyj. 10:33:00)
+Linia 948, z Wróblowice (odj. 10:33:00) do Błonie (przyj. 10:36:00)
+Linia 948, z Błonie (odj. 10:36:00) do Źródła (przyj. 10:38:00)
+Linia 948, z Źródła (odj. 10:38:00) do Kadłub wieś (przyj. 10:42:00)
+
+Całkowity czas podróży: 284 minut
+ Czas wykonanie:  208.49986670000362
+Testcase: KOSZAROWA (Szpital) -> Brzezia Łąka - cmentarz
+Optimization: t
+Start Time: 11:38:00
+Harmonogram przejazdu:
+Linia 119, z KOSZAROWA (Szpital) (odj. 11:39:00) do pl. Daniłowskiego (przyj. 11:42:00)
+Linia 132, z pl. Daniłowskiego (odj. 11:47:00) do Berenta (przyj. 11:48:00)
+Linia 132, z Berenta (odj. 11:48:00) do KROMERA (przyj. 11:53:00)
+Linia 23, z KROMERA (odj. 11:53:00) do Kętrzyńska (przyj. 11:54:00)
+Linia 23, z Kętrzyńska (odj. 11:54:00) do Kwidzyńska (przyj. 11:55:00)
+Linia 118, z Kwidzyńska (odj. 11:57:00) do Brücknera (przyj. 11:59:00)
+Linia N, z Brücknera (odj. 12:00:00) do Psie Pole (przyj. 12:04:00)
+Linia N, z Psie Pole (odj. 12:04:00) do Psie Pole (Rondo Lotników Polskich) (przyj. 12:05:00)
+Linia N, z Psie Pole (Rondo Lotników Polskich) (odj. 12:05:00) do KIEŁCZOWSKA (LZN) (przyj. 12:07:00)
+Linia N, z KIEŁCZOWSKA (LZN) (odj. 12:07:00) do Poleska (przyj. 12:08:00)
+Linia N, z Poleska (odj. 12:08:00) do Kiełczowska (przyj. 12:09:00)
+Linia N, z Kiełczowska (odj. 12:09:00) do Żmudzka (przyj. 12:10:00)
+Linia 931, z Żmudzka (odj. 12:12:00) do Kiełczowska (Cmentarz) (przyj. 12:13:00)
+Linia 931, z Kiełczowska (Cmentarz) (odj. 12:13:00) do Kiełczów - Sosnowa (przyj. 12:14:00)
+Linia 931, z Kiełczów - Sosnowa (odj. 12:14:00) do Kiełczów - Biedronka (przyj. 12:15:00)
+Linia 931, z Kiełczów - Biedronka (odj. 12:15:00) do Kiełczów - Wrocławska (przyj. 12:16:00)
+Linia 931, z Kiełczów - Wrocławska (odj. 12:16:00) do Kiełczów - pętla/Wrocławska (przyj. 12:17:00)
+Linia 931, z Kiełczów - Zgodna (odj. 12:18:00) do Śliwice (przyj. 12:21:00)
+Linia 931, z Śliwice (odj. 12:21:00) do Pietrzykowice (przyj. 12:23:00)
+Linia 931, z Pietrzykowice (odj. 12:23:00) do Brzezia Łąka - cmentarz (przyj. 12:24:00)
+
+Całkowity czas podróży: 46 minut
+ Czas wykonanie:  111.08973179999157
+
+///////////// Punkt 1 i 2 
+
+Best solution:  ['PL. GRUNWALDZKI', 'Młodych Techników', 'Kwiska', 'FAT', 'Złotniki']
+Best solution fitness:  0.34035266589644353
+Testcase: PL. GRUNWALDZKI -> Młodych Techników
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 4, z PL. GRUNWALDZKI (odj. 08:40:00) do most Grunwaldzki (przyj. 08:41:00)
+Linia 145, z most Grunwaldzki (odj. 08:41:00) do Poczta Główna (przyj. 08:43:00)
+Linia N, z Poczta Główna (odj. 08:44:00) do GALERIA DOMINIKAŃSKA (przyj. 08:46:00)
+Linia 3, z GALERIA DOMINIKAŃSKA (odj. 08:46:00) do Świdnicka (przyj. 08:48:00)
+Linia 3, z Świdnicka (odj. 08:48:00) do Zamkowa (przyj. 08:49:00)
+Linia 3, z Zamkowa (odj. 08:49:00) do Rynek (przyj. 08:51:00)
+Linia 3, z Rynek (odj. 08:51:00) do PL. JANA PAWŁA II (przyj. 08:53:00)
+Linia 3, z PL. JANA PAWŁA II (odj. 08:53:00) do Młodych Techników (przyj. 08:55:00)
+From PL. GRUNWALDZKI to Młodych Techników cost: 15.0
+Arrival time: 08:55:00
+Testcase: Młodych Techników -> Kwiska
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 13, z Młodych Techników (odj. 08:40:00) do pl. Strzegomski (Muzeum Współczesne) (przyj. 08:41:00)
+Linia 21, z pl. Strzegomski (Muzeum Współczesne) (odj. 08:43:00) do Wrocław Mikołajów (Zachodnia) (przyj. 08:45:00)
+Linia 21, z Wrocław Mikołajów (Zachodnia) (odj. 08:45:00) do Niedźwiedzia (przyj. 08:47:00)
+Linia 21, z Niedźwiedzia (odj. 08:47:00) do Małopanewska (przyj. 08:48:00)
+Linia 21, z Małopanewska (odj. 08:48:00) do Kwiska (przyj. 08:49:00)
+From Młodych Techników to Kwiska cost: 9.0
+Arrival time: 08:49:00
+Testcase: Kwiska -> FAT
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 143, z Kwiska (odj. 08:42:00) do Na Ostatnim Groszu (przyj. 08:45:00)
+Linia 134, z Na Ostatnim Groszu (odj. 08:45:00) do Gądowianka (przyj. 08:46:00)
+Linia 143, z Gądowianka (odj. 08:47:00) do Szkocka (przyj. 08:49:00)
+Linia 143, z Szkocka (odj. 08:49:00) do Wrocławski Park Technologiczny (przyj. 08:51:00)
+Linia 143, z Wrocławski Park Technologiczny (odj. 08:51:00) do ROD Oświata (przyj. 08:53:00)
+Linia 134, z ROD Oświata (odj. 08:54:00) do FAT (przyj. 08:56:00)
+From Kwiska to FAT cost: 16.0
+Arrival time: 08:56:00
+Testcase: FAT -> Złotniki
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 136, z FAT (odj. 08:41:00) do ROD Oświata (przyj. 08:42:00)
+Linia 136, z ROD Oświata (odj. 08:42:00) do Wrocławski Park Technologiczny (przyj. 08:43:00)
+Linia 136, z Wrocławski Park Technologiczny (odj. 08:43:00) do Szkocka (przyj. 08:44:00)
+Linia 136, z Szkocka (odj. 08:44:00) do Gądowianka (przyj. 08:46:00)
+Linia 134, z Gądowianka (odj. 08:46:00) do Nowodworska (przyj. 08:48:00)
+Linia 134, z Nowodworska (odj. 08:48:00) do Strzegomska (krzyżówka) (przyj. 08:50:00)
+Linia 134, z Strzegomska (krzyżówka) (odj. 08:50:00) do Rogowska (P+R) (przyj. 08:51:00)
+Linia 134, z Rogowska (P+R) (odj. 08:51:00) do Rogowska (ogrody działkowe) (przyj. 08:52:00)
+Linia 134, z Rogowska (ogrody działkowe) (odj. 08:52:00) do Budziszyńska (przyj. 08:53:00)
+Linia 134, z Budziszyńska (odj. 08:53:00) do Zemska (przyj. 08:54:00)
+Linia 134, z Zemska (odj. 08:54:00) do Park Tysiąclecia (przyj. 08:55:00)
+Linia 134, z Park Tysiąclecia (odj. 08:55:00) do Wrocław Nowy Dwór (P+R) (przyj. 08:56:00)
+Linia 142, z Wrocław Nowy Dwór (P+R) (odj. 08:56:00) do Kołobrzeska (przyj. 08:57:00)
+Linia 142, z Kołobrzeska (odj. 08:57:00) do Szczecińska (przyj. 08:59:00)
+Linia 142, z Szczecińska (odj. 08:59:00) do Żerniki (przyj. 09:00:00)
+Linia 142, z Żerniki (odj. 09:00:00) do Strachowicka (przyj. 09:01:00)
+Linia 142, z Strachowicka (odj. 09:01:00) do Żernicka (przyj. 09:02:00)
+Linia 142, z Żernicka (odj. 09:02:00) do Jerzmanowska nr 9 (przyj. 09:03:00)
+Linia 142, z Jerzmanowska nr 9 (odj. 09:03:00) do Jerzmanowska nr 17 (przyj. 09:04:00)
+Linia 148, z Jerzmanowska nr 17 (odj. 09:06:00) do Częstochowska (przyj. 09:08:00)
+Linia 148, z Częstochowska (odj. 09:08:00) do Halicka (przyj. 09:09:00)
+Linia 148, z Halicka (odj. 09:09:00) do Małopolska (Ośrodek dla niewidomych) (przyj. 09:10:00)
+Linia 148, z Małopolska (Ośrodek dla niewidomych) (odj. 09:10:00) do Złotniki (przyj. 09:11:00)
+From FAT to Złotniki cost: 31.0
+Arrival time: 09:11:00
+Total cost: 71.0
+ Czas wykonanie:  223.02656130000832
+
+
+Best solution:  ['Złotniki', 'Kwiska', 'FAT', 'Młodych Techników', 'PL. GRUNWALDZKI']
+Best solution fitness:  0.32876596368036415
+Testcase: Złotniki -> Kwiska
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 148, z Złotniki (odj. 08:40:00) do Wielkopolska (przyj. 08:41:00)
+Linia 148, z Wielkopolska (odj. 08:41:00) do Złotnicka (przyj. 08:42:00)
+Linia 3, z Złotnicka (odj. 08:42:00) do Kamiennogórska (Ośrodek dla niewidomych) (przyj. 08:43:00)
+Linia 3, z Kamiennogórska (Ośrodek dla niewidomych) (odj. 08:43:00) do Kosmonautów (Szpital) (przyj. 08:44:00)
+Linia 3, z Kosmonautów (Szpital) (odj. 08:44:00) do Grabowa (przyj. 08:46:00)
+Linia 3, z Grabowa (odj. 08:46:00) do Aleja Architektów (przyj. 08:47:00)
+Linia 3, z Aleja Architektów (odj. 08:47:00) do Glinianki (przyj. 08:49:00)
+Linia 3, z Glinianki (odj. 08:49:00) do Tarczyński Arena (Lotnicza) (przyj. 08:50:00)
+Linia 3, z Tarczyński Arena (Lotnicza) (odj. 08:50:00) do PILCZYCE (przyj. 08:52:00)
+Linia 3, z PILCZYCE (odj. 08:52:00) do Metalowców (przyj. 08:53:00)
+Linia 3, z Metalowców (odj. 08:53:00) do Bajana (przyj. 08:55:00)
+Linia 3, z Bajana (odj. 08:55:00) do Park Zachodni (przyj. 08:56:00)
+Linia 3, z Park Zachodni (odj. 08:56:00) do DH Astra (przyj. 08:57:00)
+Linia 3, z DH Astra (odj. 08:57:00) do Kwiska (przyj. 08:59:00)
+From Złotniki to Kwiska cost: 19.0
+Arrival time: 08:59:00
+Testcase: Kwiska -> FAT
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 143, z Kwiska (odj. 08:42:00) do Na Ostatnim Groszu (przyj. 08:45:00)
+Linia 134, z Na Ostatnim Groszu (odj. 08:45:00) do Gądowianka (przyj. 08:46:00)
+Linia 143, z Gądowianka (odj. 08:47:00) do Szkocka (przyj. 08:49:00)
+Linia 143, z Szkocka (odj. 08:49:00) do Wrocławski Park Technologiczny (przyj. 08:51:00)
+Linia 143, z Wrocławski Park Technologiczny (odj. 08:51:00) do ROD Oświata (przyj. 08:53:00)
+Linia 134, z ROD Oświata (odj. 08:54:00) do FAT (przyj. 08:56:00)
+From Kwiska to FAT cost: 16.0
+Arrival time: 08:56:00
+Testcase: FAT -> Młodych Techników
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 136, z FAT (odj. 08:41:00) do ROD Oświata (przyj. 08:42:00)
+Linia 136, z ROD Oświata (odj. 08:42:00) do Wrocławski Park Technologiczny (przyj. 08:43:00)
+Linia 136, z Wrocławski Park Technologiczny (odj. 08:43:00) do Szkocka (przyj. 08:44:00)
+Linia 136, z Szkocka (odj. 08:44:00) do Gądowianka (przyj. 08:46:00)
+Linia 134, z Gądowianka (odj. 08:46:00) do Nowodworska (przyj. 08:48:00)
+Linia 142, z Nowodworska (odj. 08:48:00) do Strzegomska 148 (przyj. 08:49:00)
+Linia 142, z Strzegomska 148 (odj. 08:49:00) do Otyńska (przyj. 08:51:00)
+Linia 142, z Otyńska (odj. 08:51:00) do Fabryczna (przyj. 08:52:00)
+Linia 142, z Fabryczna (odj. 08:52:00) do Uniwersytet Dolnośląski DSW (przyj. 08:53:00)
+Linia 142, z Uniwersytet Dolnośląski DSW (odj. 08:53:00) do Wrocławski Park Przemysłowy (przyj. 08:54:00)
+Linia 142, z Wrocławski Park Przemysłowy (odj. 08:54:00) do Śrubowa (przyj. 08:55:00)
+Linia 142, z Śrubowa (odj. 08:55:00) do pl. Strzegomski (Muzeum Współczesne) (przyj. 08:57:00)
+Linia 142, z pl. Strzegomski (Muzeum Współczesne) (odj. 08:57:00) do Młodych Techników (przyj. 08:58:00)
+From FAT to Młodych Techników cost: 18.0
+Arrival time: 08:58:00
+Testcase: Młodych Techników -> PL. GRUNWALDZKI
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 132, z Młodych Techników (odj. 08:40:00) do PL. JANA PAWŁA II (przyj. 08:43:00)
+Linia 132, z PL. JANA PAWŁA II (odj. 08:43:00) do Rynek (przyj. 08:46:00)
+Linia K, z Rynek (odj. 08:46:00) do Świdnicka (przyj. 08:49:00)
+Linia K, z Świdnicka (odj. 08:49:00) do GALERIA DOMINIKAŃSKA (przyj. 08:51:00)
+Linia 12, z GALERIA DOMINIKAŃSKA (odj. 08:51:00) do Urząd Wojewódzki (Impart) (przyj. 08:54:00)
+Linia 12, z Urząd Wojewódzki (Impart) (odj. 08:54:00) do most Grunwaldzki (przyj. 08:56:00)
+Linia 12, z most Grunwaldzki (odj. 08:56:00) do PL. GRUNWALDZKI (przyj. 08:58:00)
+From Młodych Techników to PL. GRUNWALDZKI cost: 18.0
+Arrival time: 08:58:00
+Total cost: 71.0
+ Czas wykonanie:  180.2103366999945
+
+///// Punkt 2
+
+Best solution:  ['Złotniki', 'Kwiska', 'FAT', 'Młodych Techników', 'PL. GRUNWALDZKI']
+Best solution fitness:  0.32876596368036415
+Testcase: Złotniki -> Kwiska
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 148, z Złotniki (odj. 08:40:00) do Wielkopolska (przyj. 08:41:00)
+Linia 148, z Wielkopolska (odj. 08:41:00) do Złotnicka (przyj. 08:42:00)
+Linia 3, z Złotnicka (odj. 08:42:00) do Kamiennogórska (Ośrodek dla niewidomych) (przyj. 08:43:00)
+Linia 3, z Kamiennogórska (Ośrodek dla niewidomych) (odj. 08:43:00) do Kosmonautów (Szpital) (przyj. 08:44:00)
+Linia 3, z Kosmonautów (Szpital) (odj. 08:44:00) do Grabowa (przyj. 08:46:00)
+Linia 3, z Grabowa (odj. 08:46:00) do Aleja Architektów (przyj. 08:47:00)
+Linia 3, z Aleja Architektów (odj. 08:47:00) do Glinianki (przyj. 08:49:00)
+Linia 3, z Glinianki (odj. 08:49:00) do Tarczyński Arena (Lotnicza) (przyj. 08:50:00)
+Linia 3, z Tarczyński Arena (Lotnicza) (odj. 08:50:00) do PILCZYCE (przyj. 08:52:00)
+Linia 3, z PILCZYCE (odj. 08:52:00) do Metalowców (przyj. 08:53:00)
+Linia 3, z Metalowców (odj. 08:53:00) do Bajana (przyj. 08:55:00)
+Linia 3, z Bajana (odj. 08:55:00) do Park Zachodni (przyj. 08:56:00)
+Linia 3, z Park Zachodni (odj. 08:56:00) do DH Astra (przyj. 08:57:00)
+Linia 3, z DH Astra (odj. 08:57:00) do Kwiska (przyj. 08:59:00)
+From Złotniki to Kwiska cost: 19.0
+Arrival time: 08:59:00
+Testcase: Kwiska -> FAT
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 143, z Kwiska (odj. 08:42:00) do Na Ostatnim Groszu (przyj. 08:45:00)
+Linia 134, z Na Ostatnim Groszu (odj. 08:45:00) do Gądowianka (przyj. 08:46:00)
+Linia 143, z Gądowianka (odj. 08:47:00) do Szkocka (przyj. 08:49:00)
+Linia 143, z Szkocka (odj. 08:49:00) do Wrocławski Park Technologiczny (przyj. 08:51:00)
+Linia 143, z Wrocławski Park Technologiczny (odj. 08:51:00) do ROD Oświata (przyj. 08:53:00)
+Linia 134, z ROD Oświata (odj. 08:54:00) do FAT (przyj. 08:56:00)
+From Kwiska to FAT cost: 16.0
+Arrival time: 08:56:00
+Testcase: FAT -> Młodych Techników
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 136, z FAT (odj. 08:41:00) do ROD Oświata (przyj. 08:42:00)
+Linia 136, z ROD Oświata (odj. 08:42:00) do Wrocławski Park Technologiczny (przyj. 08:43:00)
+Linia 136, z Wrocławski Park Technologiczny (odj. 08:43:00) do Szkocka (przyj. 08:44:00)
+Linia 136, z Szkocka (odj. 08:44:00) do Gądowianka (przyj. 08:46:00)
+Linia 134, z Gądowianka (odj. 08:46:00) do Nowodworska (przyj. 08:48:00)
+Linia 142, z Nowodworska (odj. 08:48:00) do Strzegomska 148 (przyj. 08:49:00)
+Linia 142, z Strzegomska 148 (odj. 08:49:00) do Otyńska (przyj. 08:51:00)
+Linia 142, z Otyńska (odj. 08:51:00) do Fabryczna (przyj. 08:52:00)
+Linia 142, z Fabryczna (odj. 08:52:00) do Uniwersytet Dolnośląski DSW (przyj. 08:53:00)
+Linia 142, z Uniwersytet Dolnośląski DSW (odj. 08:53:00) do Wrocławski Park Przemysłowy (przyj. 08:54:00)
+Linia 142, z Wrocławski Park Przemysłowy (odj. 08:54:00) do Śrubowa (przyj. 08:55:00)
+Linia 142, z Śrubowa (odj. 08:55:00) do pl. Strzegomski (Muzeum Współczesne) (przyj. 08:57:00)
+Linia 142, z pl. Strzegomski (Muzeum Współczesne) (odj. 08:57:00) do Młodych Techników (przyj. 08:58:00)
+From FAT to Młodych Techników cost: 18.0
+Arrival time: 08:58:00
+Testcase: Młodych Techników -> PL. GRUNWALDZKI
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 132, z Młodych Techników (odj. 08:40:00) do PL. JANA PAWŁA II (przyj. 08:43:00)
+Linia 132, z PL. JANA PAWŁA II (odj. 08:43:00) do Rynek (przyj. 08:46:00)
+Linia K, z Rynek (odj. 08:46:00) do Świdnicka (przyj. 08:49:00)
+Linia K, z Świdnicka (odj. 08:49:00) do GALERIA DOMINIKAŃSKA (przyj. 08:51:00)
+Linia 12, z GALERIA DOMINIKAŃSKA (odj. 08:51:00) do Urząd Wojewódzki (Impart) (przyj. 08:54:00)
+Linia 12, z Urząd Wojewódzki (Impart) (odj. 08:54:00) do most Grunwaldzki (przyj. 08:56:00)
+Linia 12, z most Grunwaldzki (odj. 08:56:00) do PL. GRUNWALDZKI (przyj. 08:58:00)
+From Młodych Techników to PL. GRUNWALDZKI cost: 18.0
+Arrival time: 08:58:00
+Total cost: 71.0
+ Czas wykonanie:  186.37444749998394
+
+////// Punkt 3
+
+
+Best solution:  ['Złotniki', 'Kwiska', 'FAT', 'Młodych Techników', 'PL. GRUNWALDZKI']
+Best solution fitness:  0.32876596368036415
+Testcase: Złotniki -> Kwiska
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 148, z Złotniki (odj. 08:40:00) do Wielkopolska (przyj. 08:41:00)
+Linia 148, z Wielkopolska (odj. 08:41:00) do Złotnicka (przyj. 08:42:00)
+Linia 3, z Złotnicka (odj. 08:42:00) do Kamiennogórska (Ośrodek dla niewidomych) (przyj. 08:43:00)
+Linia 3, z Kamiennogórska (Ośrodek dla niewidomych) (odj. 08:43:00) do Kosmonautów (Szpital) (przyj. 08:44:00)
+Linia 3, z Kosmonautów (Szpital) (odj. 08:44:00) do Grabowa (przyj. 08:46:00)
+Linia 3, z Grabowa (odj. 08:46:00) do Aleja Architektów (przyj. 08:47:00)
+Linia 3, z Aleja Architektów (odj. 08:47:00) do Glinianki (przyj. 08:49:00)
+Linia 3, z Glinianki (odj. 08:49:00) do Tarczyński Arena (Lotnicza) (przyj. 08:50:00)
+Linia 3, z Tarczyński Arena (Lotnicza) (odj. 08:50:00) do PILCZYCE (przyj. 08:52:00)
+Linia 3, z PILCZYCE (odj. 08:52:00) do Metalowców (przyj. 08:53:00)
+Linia 3, z Metalowców (odj. 08:53:00) do Bajana (przyj. 08:55:00)
+Linia 3, z Bajana (odj. 08:55:00) do Park Zachodni (przyj. 08:56:00)
+Linia 3, z Park Zachodni (odj. 08:56:00) do DH Astra (przyj. 08:57:00)
+Linia 3, z DH Astra (odj. 08:57:00) do Kwiska (przyj. 08:59:00)
+From Złotniki to Kwiska cost: 19.0
+Arrival time: 08:59:00
+Testcase: Kwiska -> FAT
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 143, z Kwiska (odj. 08:42:00) do Na Ostatnim Groszu (przyj. 08:45:00)
+Linia 134, z Na Ostatnim Groszu (odj. 08:45:00) do Gądowianka (przyj. 08:46:00)
+Linia 143, z Gądowianka (odj. 08:47:00) do Szkocka (przyj. 08:49:00)
+Linia 143, z Szkocka (odj. 08:49:00) do Wrocławski Park Technologiczny (przyj. 08:51:00)
+Linia 143, z Wrocławski Park Technologiczny (odj. 08:51:00) do ROD Oświata (przyj. 08:53:00)
+Linia 134, z ROD Oświata (odj. 08:54:00) do FAT (przyj. 08:56:00)
+From Kwiska to FAT cost: 16.0
+Arrival time: 08:56:00
+Testcase: FAT -> Młodych Techników
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 136, z FAT (odj. 08:41:00) do ROD Oświata (przyj. 08:42:00)
+Linia 136, z ROD Oświata (odj. 08:42:00) do Wrocławski Park Technologiczny (przyj. 08:43:00)
+Linia 136, z Wrocławski Park Technologiczny (odj. 08:43:00) do Szkocka (przyj. 08:44:00)
+Linia 136, z Szkocka (odj. 08:44:00) do Gądowianka (przyj. 08:46:00)
+Linia 134, z Gądowianka (odj. 08:46:00) do Nowodworska (przyj. 08:48:00)
+Linia 142, z Nowodworska (odj. 08:48:00) do Strzegomska 148 (przyj. 08:49:00)
+Linia 142, z Strzegomska 148 (odj. 08:49:00) do Otyńska (przyj. 08:51:00)
+Linia 142, z Otyńska (odj. 08:51:00) do Fabryczna (przyj. 08:52:00)
+Linia 142, z Fabryczna (odj. 08:52:00) do Uniwersytet Dolnośląski DSW (przyj. 08:53:00)
+Linia 142, z Uniwersytet Dolnośląski DSW (odj. 08:53:00) do Wrocławski Park Przemysłowy (przyj. 08:54:00)
+Linia 142, z Wrocławski Park Przemysłowy (odj. 08:54:00) do Śrubowa (przyj. 08:55:00)
+Linia 142, z Śrubowa (odj. 08:55:00) do pl. Strzegomski (Muzeum Współczesne) (przyj. 08:57:00)
+Linia 142, z pl. Strzegomski (Muzeum Współczesne) (odj. 08:57:00) do Młodych Techników (przyj. 08:58:00)
+From FAT to Młodych Techników cost: 18.0
+Arrival time: 08:58:00
+Testcase: Młodych Techników -> PL. GRUNWALDZKI
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 132, z Młodych Techników (odj. 08:40:00) do PL. JANA PAWŁA II (przyj. 08:43:00)
+Linia 132, z PL. JANA PAWŁA II (odj. 08:43:00) do Rynek (przyj. 08:46:00)
+Linia K, z Rynek (odj. 08:46:00) do Świdnicka (przyj. 08:49:00)
+Linia K, z Świdnicka (odj. 08:49:00) do GALERIA DOMINIKAŃSKA (przyj. 08:51:00)
+Linia 12, z GALERIA DOMINIKAŃSKA (odj. 08:51:00) do Urząd Wojewódzki (Impart) (przyj. 08:54:00)
+Linia 12, z Urząd Wojewódzki (Impart) (odj. 08:54:00) do most Grunwaldzki (przyj. 08:56:00)
+Linia 12, z most Grunwaldzki (odj. 08:56:00) do PL. GRUNWALDZKI (przyj. 08:58:00)
+From Młodych Techników to PL. GRUNWALDZKI cost: 18.0
+Arrival time: 08:58:00
+Total cost: 71.0
+ Czas wykonanie:  184.8335461000097
+
+
+////// Punkt 4
+
+Best solution:  ['PL. GRUNWALDZKI', 'Młodych Techników', 'FAT', 'Kwiska', 'Złotniki']
+Best solution fitness:  0.32876596368036415
+Testcase: PL. GRUNWALDZKI -> Młodych Techników
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 4, z PL. GRUNWALDZKI (odj. 08:40:00) do most Grunwaldzki (przyj. 08:41:00)
+Linia 145, z most Grunwaldzki (odj. 08:41:00) do Poczta Główna (przyj. 08:43:00)
+Linia N, z Poczta Główna (odj. 08:44:00) do GALERIA DOMINIKAŃSKA (przyj. 08:46:00)
+Linia 3, z GALERIA DOMINIKAŃSKA (odj. 08:46:00) do Świdnicka (przyj. 08:48:00)
+Linia 3, z Świdnicka (odj. 08:48:00) do Zamkowa (przyj. 08:49:00)
+Linia 3, z Zamkowa (odj. 08:49:00) do Rynek (przyj. 08:51:00)
+Linia 3, z Rynek (odj. 08:51:00) do PL. JANA PAWŁA II (przyj. 08:53:00)
+Linia 3, z PL. JANA PAWŁA II (odj. 08:53:00) do Młodych Techników (przyj. 08:55:00)
+From PL. GRUNWALDZKI to Młodych Techników cost: 15.0
+Arrival time: 08:55:00
+Testcase: Młodych Techników -> FAT
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 132, z Młodych Techników (odj. 08:40:00) do PL. JANA PAWŁA II (przyj. 08:43:00)
+Linia 122, z PL. JANA PAWŁA II (odj. 08:43:00) do pl. Orląt Lwowskich (przyj. 08:45:00)
+Linia 122, z pl. Orląt Lwowskich (odj. 08:45:00) do pl. Legionów (przyj. 08:47:00)
+Linia 11, z pl. Legionów (odj. 08:47:00) do Kolejowa (przyj. 08:48:00)
+Linia 11, z Kolejowa (odj. 08:48:00) do Grabiszyńska (przyj. 08:49:00)
+Linia 11, z Grabiszyńska (odj. 08:49:00) do Pereca (przyj. 08:50:00)
+Linia 11, z Pereca (odj. 08:50:00) do Stalowa (przyj. 08:52:00)
+Linia 11, z Stalowa (odj. 08:52:00) do pl. Srebrny (przyj. 08:53:00)
+Linia 11, z pl. Srebrny (odj. 08:53:00) do Bzowa (Centrum Historii Zajezdnia) (przyj. 08:54:00)
+Linia 11, z Bzowa (Centrum Historii Zajezdnia) (odj. 08:54:00) do Hutmen (przyj. 08:55:00)
+Linia 11, z Hutmen (odj. 08:55:00) do FAT (przyj. 08:57:00)
+From Młodych Techników to FAT cost: 17.0
+Arrival time: 08:57:00
+Testcase: FAT -> Kwiska
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 136, z FAT (odj. 08:41:00) do ROD Oświata (przyj. 08:42:00)
+Linia 136, z ROD Oświata (odj. 08:42:00) do Wrocławski Park Technologiczny (przyj. 08:43:00)
+Linia 136, z Wrocławski Park Technologiczny (odj. 08:43:00) do Szkocka (przyj. 08:44:00)
+Linia 136, z Szkocka (odj. 08:44:00) do Gądowianka (przyj. 08:46:00)
+Linia 136, z Gądowianka (odj. 08:46:00) do Na Ostatnim Groszu (przyj. 08:48:00)
+Linia 128 , z Na Ostatnim Groszu (odj. 08:49:00) do Kwiska (przyj. 08:52:00)
+From FAT to Kwiska cost: 12.0
+Arrival time: 08:52:00
+Testcase: Kwiska -> Złotniki
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 143, z Kwiska (odj. 08:42:00) do Na Ostatnim Groszu (przyj. 08:45:00)
+Linia 134, z Na Ostatnim Groszu (odj. 08:45:00) do Gądowianka (przyj. 08:46:00)
+Linia 134, z Gądowianka (odj. 08:46:00) do Nowodworska (przyj. 08:48:00)
+Linia 134, z Nowodworska (odj. 08:48:00) do Strzegomska (krzyżówka) (przyj. 08:50:00)
+Linia 134, z Strzegomska (krzyżówka) (odj. 08:50:00) do Rogowska (P+R) (przyj. 08:51:00)
+Linia 134, z Rogowska (P+R) (odj. 08:51:00) do Rogowska (ogrody działkowe) (przyj. 08:52:00)
+Linia 134, z Rogowska (ogrody działkowe) (odj. 08:52:00) do Budziszyńska (przyj. 08:53:00)
+Linia 134, z Budziszyńska (odj. 08:53:00) do Zemska (przyj. 08:54:00)
+Linia 134, z Zemska (odj. 08:54:00) do Park Tysiąclecia (przyj. 08:55:00)
+Linia 134, z Park Tysiąclecia (odj. 08:55:00) do Wrocław Nowy Dwór (P+R) (przyj. 08:56:00)
+Linia 142, z Wrocław Nowy Dwór (P+R) (odj. 08:56:00) do Kołobrzeska (przyj. 08:57:00)
+Linia 142, z Kołobrzeska (odj. 08:57:00) do Szczecińska (przyj. 08:59:00)
+Linia 142, z Szczecińska (odj. 08:59:00) do Żerniki (przyj. 09:00:00)
+Linia 142, z Żerniki (odj. 09:00:00) do Strachowicka (przyj. 09:01:00)
+Linia 142, z Strachowicka (odj. 09:01:00) do Żernicka (przyj. 09:02:00)
+Linia 142, z Żernicka (odj. 09:02:00) do Jerzmanowska nr 9 (przyj. 09:03:00)
+Linia 142, z Jerzmanowska nr 9 (odj. 09:03:00) do Jerzmanowska nr 17 (przyj. 09:04:00)
+Linia 148, z Jerzmanowska nr 17 (odj. 09:06:00) do Częstochowska (przyj. 09:08:00)
+Linia 148, z Częstochowska (odj. 09:08:00) do Halicka (przyj. 09:09:00)
+Linia 148, z Halicka (odj. 09:09:00) do Małopolska (Ośrodek dla niewidomych) (przyj. 09:10:00)
+Linia 148, z Małopolska (Ośrodek dla niewidomych) (odj. 09:10:00) do Złotniki (przyj. 09:11:00)
+From Kwiska to Złotniki cost: 31.0
+Arrival time: 09:11:00
+Total cost: 75.0
+ Czas wykonanie:  258.00806100002956
+Best solution:  ['Złotniki', 'Kwiska', 'FAT', 'Młodych Techników', 'PL. GRUNWALDZKI']
+Best solution fitness:  0.32876596368036415
+Testcase: Złotniki -> Kwiska
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 148, z Złotniki (odj. 08:40:00) do Wielkopolska (przyj. 08:41:00)
+Linia 148, z Wielkopolska (odj. 08:41:00) do Złotnicka (przyj. 08:42:00)
+Linia 3, z Złotnicka (odj. 08:42:00) do Kamiennogórska (Ośrodek dla niewidomych) (przyj. 08:43:00)
+Linia 3, z Kamiennogórska (Ośrodek dla niewidomych) (odj. 08:43:00) do Kosmonautów (Szpital) (przyj. 08:44:00)
+Linia 3, z Kosmonautów (Szpital) (odj. 08:44:00) do Grabowa (przyj. 08:46:00)
+Linia 3, z Grabowa (odj. 08:46:00) do Aleja Architektów (przyj. 08:47:00)
+Linia 3, z Aleja Architektów (odj. 08:47:00) do Glinianki (przyj. 08:49:00)
+Linia 3, z Glinianki (odj. 08:49:00) do Tarczyński Arena (Lotnicza) (przyj. 08:50:00)
+Linia 3, z Tarczyński Arena (Lotnicza) (odj. 08:50:00) do PILCZYCE (przyj. 08:52:00)
+Linia 3, z PILCZYCE (odj. 08:52:00) do Metalowców (przyj. 08:53:00)
+Linia 3, z Metalowców (odj. 08:53:00) do Bajana (przyj. 08:55:00)
+Linia 3, z Bajana (odj. 08:55:00) do Park Zachodni (przyj. 08:56:00)
+Linia 3, z Park Zachodni (odj. 08:56:00) do DH Astra (przyj. 08:57:00)
+Linia 3, z DH Astra (odj. 08:57:00) do Kwiska (przyj. 08:59:00)
+From Złotniki to Kwiska cost: 19.0
+Arrival time: 08:59:00
+Testcase: Kwiska -> FAT
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 143, z Kwiska (odj. 08:42:00) do Na Ostatnim Groszu (przyj. 08:45:00)
+Linia 134, z Na Ostatnim Groszu (odj. 08:45:00) do Gądowianka (przyj. 08:46:00)
+Linia 143, z Gądowianka (odj. 08:47:00) do Szkocka (przyj. 08:49:00)
+Linia 143, z Szkocka (odj. 08:49:00) do Wrocławski Park Technologiczny (przyj. 08:51:00)
+Linia 143, z Wrocławski Park Technologiczny (odj. 08:51:00) do ROD Oświata (przyj. 08:53:00)
+Linia 134, z ROD Oświata (odj. 08:54:00) do FAT (przyj. 08:56:00)
+From Kwiska to FAT cost: 16.0
+Arrival time: 08:56:00
+Testcase: FAT -> Młodych Techników
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 136, z FAT (odj. 08:41:00) do ROD Oświata (przyj. 08:42:00)
+Linia 136, z ROD Oświata (odj. 08:42:00) do Wrocławski Park Technologiczny (przyj. 08:43:00)
+Linia 136, z Wrocławski Park Technologiczny (odj. 08:43:00) do Szkocka (przyj. 08:44:00)
+Linia 136, z Szkocka (odj. 08:44:00) do Gądowianka (przyj. 08:46:00)
+Linia 134, z Gądowianka (odj. 08:46:00) do Nowodworska (przyj. 08:48:00)
+Linia 142, z Nowodworska (odj. 08:48:00) do Strzegomska 148 (przyj. 08:49:00)
+Linia 142, z Strzegomska 148 (odj. 08:49:00) do Otyńska (przyj. 08:51:00)
+Linia 142, z Otyńska (odj. 08:51:00) do Fabryczna (przyj. 08:52:00)
+Linia 142, z Fabryczna (odj. 08:52:00) do Uniwersytet Dolnośląski DSW (przyj. 08:53:00)
+Linia 142, z Uniwersytet Dolnośląski DSW (odj. 08:53:00) do Wrocławski Park Przemysłowy (przyj. 08:54:00)
+Linia 142, z Wrocławski Park Przemysłowy (odj. 08:54:00) do Śrubowa (przyj. 08:55:00)
+Linia 142, z Śrubowa (odj. 08:55:00) do pl. Strzegomski (Muzeum Współczesne) (przyj. 08:57:00)
+Linia 142, z pl. Strzegomski (Muzeum Współczesne) (odj. 08:57:00) do Młodych Techników (przyj. 08:58:00)
+From FAT to Młodych Techników cost: 18.0
+Arrival time: 08:58:00
+Testcase: Młodych Techników -> PL. GRUNWALDZKI
+Start Time: 8:40:00
+Harmonogram przejazdu:
+Linia 132, z Młodych Techników (odj. 08:40:00) do PL. JANA PAWŁA II (przyj. 08:43:00)
+Linia 132, z PL. JANA PAWŁA II (odj. 08:43:00) do Rynek (przyj. 08:46:00)
+Linia K, z Rynek (odj. 08:46:00) do Świdnicka (przyj. 08:49:00)
+Linia K, z Świdnicka (odj. 08:49:00) do GALERIA DOMINIKAŃSKA (przyj. 08:51:00)
+Linia 12, z GALERIA DOMINIKAŃSKA (odj. 08:51:00) do Urząd Wojewódzki (Impart) (przyj. 08:54:00)
+Linia 12, z Urząd Wojewódzki (Impart) (odj. 08:54:00) do most Grunwaldzki (przyj. 08:56:00)
+Linia 12, z most Grunwaldzki (odj. 08:56:00) do PL. GRUNWALDZKI (przyj. 08:58:00)
+From Młodych Techników to PL. GRUNWALDZKI cost: 18.0
+Arrival time: 08:58:00
+Total cost: 71.0
+ Czas wykonanie:  186.08301230001962
+
+
+
+
+
+
