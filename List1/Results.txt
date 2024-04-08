@@ -764,7 +764,7 @@ Linia 931, z Pietrzykowice (odj. 12:23:00) do Brzezia Łąka - cmentarz (przyj. 
 Całkowity czas podróży: 46 minut
  Czas wykonanie:  111.08973179999157
 
-///////////// Punkt 1 i 2 
+///////////// Tabu search - no limit
 
 Best solution:  ['PL. GRUNWALDZKI', 'Młodych Techników', 'Kwiska', 'FAT', 'Złotniki']
 Best solution fitness:  0.34035266589644353
@@ -834,6 +834,8 @@ Total cost: 71.0
  Czas wykonanie:  223.02656130000832
 
 
+/// Tabu search - no limit, different number of iterations
+
 Best solution:  ['Złotniki', 'Kwiska', 'FAT', 'Młodych Techników', 'PL. GRUNWALDZKI']
 Best solution fitness:  0.32876596368036415
 Testcase: Złotniki -> Kwiska
@@ -899,7 +901,7 @@ Arrival time: 08:58:00
 Total cost: 71.0
  Czas wykonanie:  180.2103366999945
 
-///// Punkt 2
+///// Tabu search - limited list size
 
 Best solution:  ['Złotniki', 'Kwiska', 'FAT', 'Młodych Techników', 'PL. GRUNWALDZKI']
 Best solution fitness:  0.32876596368036415
@@ -966,7 +968,7 @@ Arrival time: 08:58:00
 Total cost: 71.0
  Czas wykonanie:  186.37444749998394
 
-////// Punkt 3
+////// Tabu search - aspiration
 
 
 Best solution:  ['Złotniki', 'Kwiska', 'FAT', 'Młodych Techników', 'PL. GRUNWALDZKI']
@@ -1035,7 +1037,7 @@ Total cost: 71.0
  Czas wykonanie:  184.8335461000097
 
 
-////// Punkt 4
+////// Tabu search - neighbour sampling
 
 Best solution:  ['PL. GRUNWALDZKI', 'Młodych Techników', 'FAT', 'Kwiska', 'Złotniki']
 Best solution fitness:  0.32876596368036415
