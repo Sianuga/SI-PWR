@@ -9,8 +9,6 @@ def parse_departure_time(departure_time):
     else:
         raise ValueError("Nieobsługiwany typ danych dla czasu odjazdu/przyjazdu.")
 
-import heapq
-import datetime
 
 def dijkstra_time(graph, start_stop, end_stop, departure_time_str):
     departure_datetime = parse_departure_time(departure_time_str)
@@ -34,7 +32,7 @@ def dijkstra_time(graph, start_stop, end_stop, departure_time_str):
             for segment in path[1:]:  
                 _, line, dep, arr, _ = segment
                 if line:  
-                    print(f"Linia {line}, z {segment[0]} (odj. {dep.strftime('%H:%M:%S')}) do {segment[4]} (przyj. {arr.strftime('%H:%M:%S')})")
+                    print(f"Linia {line}, z {segment[4]} (odj. {dep.strftime('%H:%M:%S')}) do {segment[0]} (przyj. {arr.strftime('%H:%M:%S')})")
             total_travel_time = (current_datetime - departure_datetime).total_seconds() / 60  
             print(f"\nCałkowity czas podróży: {total_travel_time:.0f} minut")
             return path

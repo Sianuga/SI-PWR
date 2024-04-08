@@ -3,6 +3,7 @@ import Graph
 import DataReader
 import Astar
 import Tabu
+from timeit import default_timer as timer
 
 class PathFinder:
     def __init__(self):
@@ -15,31 +16,62 @@ class PathFinder:
         return self.graph
 
     def findPathDjikstra(self, startStop, endStop, criteria, departureTime):
+        start = timer()
         if criteria == "t":
-            return Djikstra.dijkstra_time(self.graph, startStop, endStop, departureTime)
+            result = Djikstra.dijkstra_time(self.graph, startStop, endStop, departureTime)
+            end = timer()
+            print(" Czas wykonanie: ", end - start)
+            return result
         elif criteria == "p":
-            return Djikstra.dijkstra_path(self.graph, startStop, endStop, departureTime)
+            result = Djikstra.dijkstra_path(self.graph, startStop, endStop, departureTime)
+            end = timer()
+            print(" Czas wykonanie: ", end - start)
+            return result
         else:
             return None
+
         
     def findPathAStar(self, startStop, endStop, criteria, departureTime):
+        start = timer()
         if criteria == "t":
-            return Astar.a_star_time(self.graph, startStop, endStop, departureTime)
+            result = Astar.a_star_time(self.graph, startStop, endStop, departureTime)
+            end = timer()
+            print(" Czas wykonanie: ", end - start)
+            return result
         elif criteria == "p":
-            return Astar.a_star_path(self.graph, startStop, endStop, departureTime)
+            result = Astar.a_star_path(self.graph, startStop, endStop, departureTime)
+            end = timer()
+            print(" Czas wykonanie: ", end - start)
+            return result
         elif criteria == "m":
-            return Astar.a_star_min_modified(self.graph, startStop, endStop, departureTime)
+            result = Astar.a_star_min_modified(self.graph, startStop, endStop, departureTime)
+            end = timer()
+            print(" Czas wykonanie: ", end - start)
+            return result
         else:
             return None
         
-    def findPathWithTabu(self, startStop, stopLists, criteria, departureTime):
+    def findPathWithTabu(self, startStop, stopLists, criteria, departureTime, tabuListSize, maxIterations):
+        start = timer()
         if criteria == "n":
-            return Tabu.tabu_no_limit(self.graph, startStop, stopLists, departureTime)
+            result = Tabu.tabu_no_limit(stopLists, maxIterations, tabuListSize, departureTime, self.graph)
+            end = timer()
+            print(" Czas wykonanie: ", end - start)
+            return result
         elif criteria == "t":
-            return Tabu.tabu_tab_length(self.graph, startStop, stopLists, departureTime)
+            result = Tabu.tabu_tab_length(self.graph, startStop, stopLists, departureTime, tabuListSize, maxIterations)
+            end = timer()
+            print(" Czas wykonanie: ", end - start)
+            return result
         elif criteria == "m":
-            return Tabu.tabu_cost_min(self.graph, startStop, stopLists, departureTime)
+            result = Tabu.tabu_cost_min(self.graph, startStop, stopLists, departureTime, tabuListSize, maxIterations)
+            end = timer()
+            print(" Czas wykonanie: ", end - start)
+            return result
         elif criteria == "s":
-            return Tabu.tabu_sampling(self.graph, startStop, stopLists, departureTime)
+            result = Tabu.tabu_sampling(self.graph, startStop, stopLists, departureTime, tabuListSize, maxIterations)
+            end = timer()
+            print(" Czas wykonanie: ", end - start)
+            return result
         else:
             return None
